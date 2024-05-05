@@ -1,0 +1,17 @@
+version: '3.5'
+
+services:
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: grincidatabase
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 211rdb457
+    ports:
+      - 5432:5432
+
