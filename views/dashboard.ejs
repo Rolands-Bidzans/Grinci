@@ -1,0 +1,144 @@
+<%- include('partials/header') %>
+
+<div class="wrapper">
+	<div class="left_side">
+		<div class="chart_container">
+			<div class="title">Some title</div>
+			<canvas id="lineChart"></canvas>
+		</div>
+	</div>
+
+	<div class="right_side">
+		<div class="chart_container">
+			<div class="title">Some title</div>
+			<canvas id="pieChart"></canvas>
+		</div>
+		<div class="chart_container">
+			<div class="title"></div>
+			<div class="chart_center">
+				<canvas id="doughnutChart"></canvas>
+				<div class="doughnutChart_center">
+					<div class="title">Paid</div>
+					<div class="description">93%</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wrapper">
+	<div class="left_side" >
+		<div class="date-selector-container">
+			<div class="date-selector">
+				<label for="start-date">Start Date:</label>
+				<input type="date" id="start-date" name="start-date">
+			</div>
+			<div class="date-selector">
+				<label for="end-date">End Date:</label>
+				<input type="date" id="end-date" name="end-date">
+			</div>
+		</div>
+	</div>
+	<div class="right_side" style="height: 120px;">
+		<div class="info_box">
+			<div class="title">Balance</div>
+			<div class="description">12390.98 EUR</div>
+		</div>
+		<div class="info_box">
+			<div class="title">Due this month</div>
+			<div class="description">23 invoices</div>
+		</div>
+		<div class="info_box">
+			<div class="title">Total spent</div>
+			<div class="description">$465</div>
+		</div>
+	</div>
+</div>
+<div class="table_section">
+	<table>
+		<thead>
+			<th>Nr</th>
+			<th>Supplier</th>
+			<th>Payment term</th>
+			<th>Total amount</th>
+			<th>Status</th>
+			<th>Buttons</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>SIA Valsts</td>
+				<td>2024-06-02</td>
+				<td>$200</td>
+				<td>
+					<span class="unpaid">unpaid</span>
+				</td>
+				<td>
+					<button>Paid</button>
+					<button>Mannage</button>
+				</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>SIA Enefit</td>
+				<td>2024-06-02</td>
+				<td>$200</td>
+				<td>
+					<span class="unpaid">unpaid</span>
+				</td>
+				<td>
+					<button>Paid</button>
+					<button>Mannage</button>
+				</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>SIA Enefit</td>
+				<td>2024-06-02</td>
+				<td>$200</td>
+				<td>
+					<span class="unpaid">unpaid</span>
+				</td>
+				<td>
+					<button>Paid</button>
+					<button>Mannage</button>
+				</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>SIA Enefit</td>
+				<td>2024-06-02</td>
+				<td>$200</td>
+				<td>
+					<span class="unpaid">unpaid</span>
+				</td>
+				<td>
+					<button>Paid</button>
+					<button>Mannage</button>
+				</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>SIA Enefit</td>
+				<td>2024-06-02</td>
+				<td>$200</td>
+				<td>
+					<span class="unpaid">unpaid</span>
+				</td>
+				<td>
+					<button>Paid</button>
+					<button>Mannage</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="pagination">
+	<div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/left.png" alt="left"/></div>
+	<span>0-250 of 436</span>
+	<div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/right.png" alt="right"/></div>
+
+</div>
+<div>
+
+</div>
+<%- include('partials/footer') %>

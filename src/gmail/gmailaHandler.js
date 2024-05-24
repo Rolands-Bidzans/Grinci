@@ -50,6 +50,7 @@ async function retrieveUsefulData(document) {
 
     return data
 }
+
 async function emailProcess() {
     const gmailAPI = require("./GmailAPI");
     const mindeeAPI = require("../mindee/MindeeAPI");

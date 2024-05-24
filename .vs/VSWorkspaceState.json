@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\src"
+    "\\public\\js",
+    "\\routes\\api"
   ],
-  "SelectedNode": "\\uploads",
+  "SelectedNode": "\\public",
   "PreviewInSolutionExplorer": false
 }
