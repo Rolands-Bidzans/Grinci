@@ -1,8 +1,98 @@
 <%- include('partials/header') %>
 
-<!-- ####  YOUR HTML CODE HERE START-->
+    <!-- ####  YOUR HTML CODE HERE START-->
+    <div class="button-container">
+        <button id="deleteInvoices"><img width="30" height="30" src="https://img.icons8.com/pulsar-line/48/delete.png"
+                alt="delete" /></button>
+        <button id="pullInvoices">Pull invoices</button>
+        <button id="createTag">Create tag</button>
+        <button id="addTag">Add tag</button>
+    </div> 
+    <div class="table_section">
+        <table>
+            <thead>
+                <th><input type="checkbox" class="all-invoices" value="invoice3"></th>
+                <th>Nr</th>
+                <th>Supplier</th>
+                <th>Payment term</th>
+                <th>Total amount</th>
+                <th>Status</th>
+                <th>Buttons</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" class="invoice-checkbox" value="invoice1"></td>
+                    <td>1</td>
+                    <td>SIA Valsts</td>
+                    <td>2024-06-02</td>
+                    <td>$200</td>
+                    <td>
+                        <span class="unpaid">unpaid</span>
+                    </td>
+                    <td>
+                        <button>Paid</button>
+                        <button>Mannage</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="invoice-checkbox" value="invoice1"></td>
+                    <td>2</td>
+                    <td>SIA Enefit</td>
+                    <td>2024-06-02</td>
+                    <td>$200</td>
+                    <td>
+                        <span class="unpaid">unpaid</span>
+                    </td>
+                    <td>
+                        <button>Paid</button>
+                        <button>Mannage</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="invoice-checkbox" value="invoice1"></td>
+                    <td>3</td>
+                    <td>SIA Enefit</td>
+                    <td>2024-06-02</td>
+                    <td>$200</td>
+                    <td>
+                        <span class="unpaid">unpaid</span>
+                    </td>
+                    <td>
+                        <button>Paid</button>
+                        <button>Mannage</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="invoice-checkbox" value="invoice1"></td>
+                    <td>4</td>
+                    <td>SIA Enefit</td>
+                    <td>2024-06-02</td>
+                    <td>$200</td>
+                    <td>
+                        <span class="unpaid">unpaid</span>
+                    </td>
+                    <td>
+                        <button>Paid</button>
+                        <button>Mannage</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="invoice-checkbox" value="invoice1"></td>
+                    <td>5</td>
+                    <td>SIA Enefit</td>
+                    <td>2024-06-02</td>
+                    <td>$200</td>
+                    <td>
+                        <span class="unpaid">unpaid</span>
+                    </td>
+                    <td>
+                        <button>Paid</button>
+                        <button>Mannage</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- ####  YOUR HTML CODE HERE END-->
 
-
-<!-- ####  YOUR HTML CODE HERE END-->
-
-<%- include('partials/footer') %>
+    <%- include('partials/footer') %>

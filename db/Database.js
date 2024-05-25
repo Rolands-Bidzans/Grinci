@@ -113,6 +113,21 @@ class Database {
     async close() {
         await this.pool.end();
     }
+
+    async deleteInvoices(invoiceIds) {
+        const query = {
+            text: 'DELETE FROM "Invoices" WHERE id = ANY($1) RETURNING *',
+            values: [invoiceIds],
+        };
+        try {
+            const result = await this.pool.query(query);
+            return result.rows;
+        } catch (error) {
+            console.error('Error executing query', error);
+            throw error;
+        }
+    }
+    
 }
 
 module.exports = new Database();

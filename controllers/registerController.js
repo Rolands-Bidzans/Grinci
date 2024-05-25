@@ -14,7 +14,7 @@ const handleNewUser = async (req, res) => {
     }
 
     // Validate email
-    if(validateEmail(email)) return res.status(400).json({ 'message': 'Invalid email format.'});
+    if(!validateEmail(email)) return res.status(400).json({ 'message': 'Invalid email format.'});
 
     // Validate password
     const passwordValidation = validatePassword(pwd);
