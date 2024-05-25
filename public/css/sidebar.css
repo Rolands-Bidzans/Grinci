@@ -14,11 +14,29 @@
     --nav_size: 60px;
 }
 
+.overlay {
+    position: absolute;
+    background-color: rgb(32 32 32 / 50%);
+    z-index: 20000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.display_none{
+    display: none;
+}
+
 body 
 {
+    position: relative;
     display: flex;
     height: 100vh;
+    margin: 0;
+    padding: 0;
     background: var(--clr);
+    min-height: 100vh;
     overflow: hidden; /* Remove main scroll bar */
 }
 

@@ -13,7 +13,7 @@ const handleLogin = async (req, res) => {
     try {
         await db.open();
 
-        const query = `SELECT email, password, member_role
+        const query = `SELECT email, password, member_role, username
                        FROM "Users", "GroupMembers"
                        WHERE "Users".id = "GroupMembers".user_id and email = '${email}'`
         const users = await db.customQuery(query);
@@ -29,14 +29,18 @@ const handleLogin = async (req, res) => {
                 {
                     "UserInfo": {
                         "email": users[0].email,
+                        "username": users[0].username,
                         "role": role
                     }
                 },
                 process.env.ACCESS_TOKEN_SECRET,
                 { expiresIn: '1200s' }
             );
+            console.log(users[0].username);
             const refreshToken = jwt.sign(
-                { "email": users[0].email },
+                { "email": users[0].email,
+                    "username": users[0].username,
+                },
                 process.env.REFRESH_TOKEN_SECRET,
                 { expiresIn: '1d' }
             );

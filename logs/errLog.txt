@@ -609,3 +609,261 @@ messages is not defined
 
 20240523	20:22:13	8a120d25-0843-4bcf-902f-d98678ce4290	ReferenceError: authHeaderTest is not defined
 
+20240525	16:58:17	6fcd5f4a-8fe6-450d-aa1d-3ff7a8ac468c	TypeError: decoded.UserInfo.username.toUppercase is not a function
+
+20240525	16:59:51	9b342987-8556-49cd-afc8-18461e83ff15	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	16:59:58	5f5fc428-aeb0-41a1-9669-d9cb174b18e3	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:19	c472891a-62f7-47f7-b3e1-6a07e4308436	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:29	98a8a090-bb28-4b95-812a-409f45b0d271	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:30	bb8bd573-940f-4f87-b732-f6792961215d	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:30	4e597e84-21a6-4e07-9aec-b13b56d0bfe8	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:30	7eeeb192-d1e7-4767-9df5-6ea74c686f2b	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:30	2609d80c-9be5-4da9-914f-e55d36259023	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:30	4d61067a-8e05-43a9-ae36-fdf3c1f9f902	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:31	f455eb86-8416-46b7-8f22-58c9c9da00fa	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:36	b2e52fe5-4273-4362-9a67-c05af2cf8d26	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\invoice.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:38	83afdddf-4d4d-4bcf-b909-b1df25e934e0	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\members.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:41	bf6ad23e-2801-4ec6-81b1-9c9331d21773	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\email.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:43	f0e39a83-ff55-4117-ba03-47d7177b22cb	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\profile.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:00:45	8168301c-1a2c-4712-869b-0f38f4be3bdd	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\budget.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+
+20240525	17:01:13	e3483561-9d65-487c-8c3a-52c7c003b92b	ReferenceError: C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\invoice.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3| <!-- ####  YOUR HTML CODE HERE START-->
+    4| 
+
+C:\Users\rolan\OneDrive\Desktop\grupas_projekts\views\partials\header.ejs:163
+    161|             </div>
+    162|             <div class="side">
+ >> 163|                 <div style="margin-right: 10px;"><%= username %></div>
+    164|                 <img src="img/img1.jpg" alt="Description of image">
+    165|             </div>
+    166|         </div>
+
+username is not defined
+

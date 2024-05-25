@@ -9,8 +9,10 @@ const styles = ['css/dashboard.css'];
 const scripts = ['https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js', 'js/dashboard.js'];
 const title = 'DASHBOARD';
 router.get('/', (req, res) => {
+    const username = req.username.toUpperCase();
     res.render(path.join(__dirname, '..', '..', 'views', 'dashboard.ejs'), { 
         title: title,
+        username: username,
         pageName: title,
         styles: styles, 
         scripts: scripts

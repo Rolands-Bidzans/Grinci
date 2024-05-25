@@ -6,18 +6,23 @@ const Group = require(path.join(__dirname, 'group'));
 const MonitoringEmail = sequelize.define('MonitoringEmail', {
     email: {
         type: DataTypes.STRING,
+        allowNull: false
     },
     client_id: {
         type: DataTypes.STRING,
+        allowNull: true
     },
     client_secret: {
         type: DataTypes.STRING,
+        allowNull: true
     },
     refresh_token: {
         type: DataTypes.STRING,
+        allowNull: true
     },
     is_enabled: {
         type: DataTypes.BOOLEAN,
+        allowNull: false
     },
     group_id: {
         type: DataTypes.INTEGER,
@@ -25,6 +30,7 @@ const MonitoringEmail = sequelize.define('MonitoringEmail', {
             model: Group,
             key: 'id',
         },
+        allowNull: false
     },
 }, {
     timestamps: true,

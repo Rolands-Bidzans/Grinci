@@ -14,7 +14,7 @@ const handleNewUser = async (req, res) => {
     }
 
     // Validate email
-    if(validateEmail(email)) return res.status(400).json({ 'message': 'Invalid email format.'});
+    if(!validateEmail(email)) return res.status(400).json({ 'message': 'Invalid email format.'});
 
     // Validate password
     const passwordValidation = validatePassword(pwd);
@@ -30,7 +30,7 @@ const handleNewUser = async (req, res) => {
         const hashedPwd = await bcrypt.hash(pwd, 10);
 
         //store the new user
-        const newUser = await db.insertUser(email, hashedPwd);
+        const newUser = await db.insertUser(username, email, hashedPwd);
 
         //store the new group
         const newGroup = await db.insertGroups('firstGroup');
