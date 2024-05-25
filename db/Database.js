@@ -14,9 +14,9 @@ class Database {
         });
     }
 
-    async customQuery(query) {
+    async customQuery(query, params = []) {
         try {
-            const result = await this.pool.query(query);
+            const result = await this.pool.query(query, params);
             return result.rows;
         } catch (error) {
             console.error('Error executing query', error);
@@ -118,6 +118,20 @@ class Database {
         const query = {
             text: 'DELETE FROM "Invoices" WHERE id = ANY($1) RETURNING *',
             values: [invoiceIds],
+        };
+        try {
+            const result = await this.pool.query(query);
+            return result.rows;
+        } catch (error) {
+            console.error('Error executing query', error);
+            throw error;
+        }
+    }
+
+    async insertInvice(supplier_name, supplier_address = null, customer_name = null, customer_address = null, total_amount = 0, purchase_date = new Date(), due_date = null, is_paid = false, paid_date = new Date(), group_id, email, created_at = new Date()) {
+        const query = {
+            text: 'INSERT INTO "Invoices"(supplier_name, supplier_address, customer_name, customer_address, total_amount, purchase_date, due_date, is_paid, paid_date, group_id, email, created_at) VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING *',
+            values: [supplier_name, supplier_address, customer_name, customer_address, total_amount, purchase_date, due_date, is_paid, paid_date, group_id, email, created_at],
         };
         try {
             const result = await this.pool.query(query);

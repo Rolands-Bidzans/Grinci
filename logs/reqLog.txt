@@ -42230,3 +42230,819 @@
 
 20240525	14:39:11	17bb5f78-0bf7-47d2-a64a-3c71b8f9794c	POST	http://localhost:8080	/invoice
 
+20240525	14:47:30	6b009e0b-1667-4d25-b1af-6cf51d41e2af	GET	undefined	/members
+
+20240525	14:47:30	cb53b199-756c-4dc1-8321-67486869d738	GET	undefined	/css/sidebar.css
+
+20240525	14:47:30	c8a4560e-02e6-4143-8902-b937783d1543	GET	undefined	/img/img1.jpg
+
+20240525	14:47:30	cabb1fa9-4bc3-4a12-88bb-ed4accf1c115	GET	undefined	/js/main.js
+
+20240525	14:47:31	85521f91-1415-465c-a79e-db9a097f64c9	GET	undefined	/invoice
+
+20240525	14:47:31	bc0bca3b-41bc-47a7-b6c6-117c08778705	GET	undefined	/css/sidebar.css
+
+20240525	14:47:31	e5a429f2-c02f-4c2c-976e-733490e04442	GET	undefined	/css/invoice.css
+
+20240525	14:47:31	12f791cd-c2cd-41da-a0e2-3f29144d1363	GET	undefined	/img/img1.jpg
+
+20240525	14:47:31	95b3c6d9-e2f3-47db-82b8-a8188b6a9847	GET	undefined	/js/main.js
+
+20240525	14:47:31	814e75b0-7aaf-4e12-96a5-ea1367a28674	GET	undefined	/js/invoice.js
+
+20240525	14:47:47	f65ed81e-e9d8-478c-943d-8253edfed77f	GET	undefined	/dashboard
+
+20240525	14:47:47	ade557c9-63ef-4900-ab7f-e94e3b8621de	GET	undefined	/css/sidebar.css
+
+20240525	14:47:47	791ba362-3682-4869-b5a6-99d7bf41c2e1	GET	undefined	/img/img1.jpg
+
+20240525	14:47:47	74734859-d7c0-484b-ad82-df23b574ddff	GET	undefined	/js/main.js
+
+20240525	14:47:47	76230a26-8d94-4df9-a892-0d78ef1be666	GET	undefined	/css/dashboard.css
+
+20240525	14:47:47	135f48c6-7a5c-4e9a-9c31-89f734274b68	GET	undefined	/js/dashboard.js
+
+20240525	14:47:49	36ef85ef-5390-4253-a90c-95b1f140404b	GET	undefined	/invoice
+
+20240525	14:47:49	a31e025d-d2e4-4168-b057-a88eb3215b70	GET	undefined	/css/sidebar.css
+
+20240525	14:47:49	98803fda-f9dc-488b-bb43-5c7ee8373453	GET	undefined	/css/invoice.css
+
+20240525	14:47:49	a6be348e-bc96-48aa-9f3b-faef5738dca8	GET	undefined	/img/img1.jpg
+
+20240525	14:47:49	8c537e05-30be-45c1-918e-3c2973d675b6	GET	undefined	/js/main.js
+
+20240525	14:47:49	8cbb5cb2-3ab4-4710-9471-6ab24386d573	GET	undefined	/js/invoice.js
+
+20240525	14:47:58	cbd61afb-e6d2-4898-aad1-d0607f01a5ec	GET	undefined	/members
+
+20240525	14:47:58	f1e3c555-a582-4d76-be32-097b38d44e6c	GET	undefined	/css/sidebar.css
+
+20240525	14:47:58	0c0078e7-d9cb-4624-a3a2-595edc44b1a0	GET	undefined	/img/img1.jpg
+
+20240525	14:47:58	636d4b49-48e8-4838-bcb9-48a8768d414c	GET	undefined	/js/main.js
+
+20240525	14:47:59	4402e373-1c02-48f1-a122-ee46c298db99	GET	undefined	/email
+
+20240525	14:47:59	4caed98f-da2a-409d-926f-5397d6e781f4	GET	undefined	/img/img1.jpg
+
+20240525	14:47:59	8fd58409-94f3-4ce7-b6e6-4ef726416c9c	GET	undefined	/css/sidebar.css
+
+20240525	14:47:59	f0460ad4-4a23-40bd-bc93-54416cabc891	GET	undefined	/js/main.js
+
+20240525	14:48:00	299a51a9-59b1-49b0-bc74-21f2d6a3bc45	GET	undefined	/invoice
+
+20240525	14:48:00	9a29e72c-e689-4369-bda2-570c5de7a295	GET	undefined	/css/sidebar.css
+
+20240525	14:48:00	5c29a2bf-606a-4242-a42a-6dcb22466cac	GET	undefined	/css/invoice.css
+
+20240525	14:48:00	d088ab08-ff02-4e59-b650-5c4ab5ce8d8a	GET	undefined	/img/img1.jpg
+
+20240525	14:48:00	eb0ad0f5-a061-4a00-a849-8b5d2edc62da	GET	undefined	/js/main.js
+
+20240525	14:48:00	db328501-bbc7-48ec-8210-aed42eac5a9a	GET	undefined	/js/invoice.js
+
+20240525	14:48:00	43110014-f331-4364-bd4a-4a6d1f96d48a	GET	undefined	/dashboard
+
+20240525	14:48:00	28e9a289-09ea-45f3-a4bd-cbdbd2749103	GET	undefined	/css/sidebar.css
+
+20240525	14:48:00	8f9bc2b9-04b8-4ba0-a7f4-de4141eb878a	GET	undefined	/img/img1.jpg
+
+20240525	14:48:00	b194841a-9383-4a8e-b3a1-c3f9fa66b025	GET	undefined	/css/dashboard.css
+
+20240525	14:48:00	1a5d031d-e12e-4550-ae63-cf644bb37e16	GET	undefined	/js/main.js
+
+20240525	14:48:00	a2746090-38c9-48df-b879-46642e580c2b	GET	undefined	/js/dashboard.js
+
+20240525	14:48:01	9fae2213-66d3-4d5d-acfa-8509f043b7bf	GET	undefined	/invoice
+
+20240525	14:48:01	9b2c3151-bf79-4d8b-b055-3a73a7022712	GET	undefined	/css/sidebar.css
+
+20240525	14:48:01	a22ee9d6-4afd-446c-8e60-10c29a1ffbe4	GET	undefined	/css/invoice.css
+
+20240525	14:48:01	4372aa1b-763f-4074-928e-abe9a56a4f59	GET	undefined	/img/img1.jpg
+
+20240525	14:48:01	aa375d6e-b4b4-493f-808d-233532f18a64	GET	undefined	/js/main.js
+
+20240525	14:48:01	2e5cb47a-e492-4e2a-9819-38407a4772d7	GET	undefined	/js/invoice.js
+
+20240525	14:48:04	2cee27a0-9230-409c-9e06-37250ba8a957	DELETE	http://localhost:8080	/invoice
+
+20240525	14:48:29	05147f61-2358-41d0-861b-bc995f9f379d	GET	undefined	/dashboard
+
+20240525	14:48:29	7ebfd105-1d91-4700-b74b-a7313b51dea3	GET	undefined	/css/sidebar.css
+
+20240525	14:48:29	6400ed44-b615-41c4-abb5-c705c422ae4f	GET	undefined	/css/dashboard.css
+
+20240525	14:48:29	2a9c7dbb-fddf-430a-bd05-6785d5c10c9b	GET	undefined	/img/img1.jpg
+
+20240525	14:48:29	743fc505-fef5-4b3c-add3-2be20d87136a	GET	undefined	/js/main.js
+
+20240525	14:48:29	efaeab42-326a-4303-85ab-73cf0ed5a183	GET	undefined	/js/dashboard.js
+
+20240525	14:49:15	f4fa3a28-4589-4a0a-a895-0cd99b323f96	GET	undefined	/invoice
+
+20240525	14:49:15	27a6cfe2-5354-4302-9416-3bc505b07bfd	GET	undefined	/css/sidebar.css
+
+20240525	14:49:15	14630a04-f4b7-40de-8135-1bfd867aaabf	GET	undefined	/css/invoice.css
+
+20240525	14:49:15	7889d068-4ea7-411e-9e60-0e4cb501e9d1	GET	undefined	/img/img1.jpg
+
+20240525	14:49:15	cc95bc94-eccc-4582-8e0f-3ff561a79a53	GET	undefined	/js/main.js
+
+20240525	14:49:15	614d3b8d-22ce-4430-aa47-c1885d0ddec7	GET	undefined	/js/invoice.js
+
+20240525	14:53:24	1870c001-132a-4ad5-9b08-b9eab16201fc	GET	undefined	/invoice
+
+20240525	14:53:47	3e6dd332-8595-4f9d-9124-40d156ee810a	GET	undefined	/invoice
+
+20240525	14:59:17	dcf11be2-2063-4860-854f-404a7a6e5e02	GET	undefined	/invoice
+
+20240525	14:59:17	a2c537f8-fa01-4fb6-b142-60790d2449d5	GET	undefined	/
+
+20240525	14:59:17	efc1d380-663b-4ce9-80e6-fcc73a9a159f	GET	undefined	/css/style.css
+
+20240525	14:59:17	d0785fea-9bdc-4b4d-b445-e6a11ec3ed89	GET	undefined	/js/auth.js
+
+20240525	14:59:24	24cb8696-1e26-4113-8f68-09e3cfc081ff	POST	http://localhost:8080	/auth
+
+20240525	14:59:24	4b0bf0da-521b-404f-8673-dce994c62e57	GET	undefined	/dashboard
+
+20240525	14:59:24	159ff281-e912-405a-b199-10d4bebc9778	GET	undefined	/css/sidebar.css
+
+20240525	14:59:24	f5d1327f-7357-411c-9768-3fe3a3bf78e1	GET	undefined	/css/dashboard.css
+
+20240525	14:59:24	63c7f93f-fac4-498a-a3e5-596e23d504fb	GET	undefined	/img/img1.jpg
+
+20240525	14:59:24	62f60211-6f11-4a6b-aaa8-4b6799bea52a	GET	undefined	/js/main.js
+
+20240525	14:59:24	26de1d2d-49cc-4c29-a09c-6b000f4f06dd	GET	undefined	/js/dashboard.js
+
+20240525	14:59:26	91e55f7b-50b9-47c9-b438-53cf8d241173	GET	undefined	/invoice
+
+20240525	15:02:17	e352f793-d427-4fb2-940f-9ad2f79753c3	GET	undefined	/invoice
+
+20240525	15:02:18	8f822174-b91e-41ab-8e68-1fb295ef1ec0	GET	undefined	/invoice
+
+20240525	15:04:49	ea012185-202a-44f0-8ca3-eee191e9ec32	GET	undefined	/invoice
+
+20240525	15:04:50	8f553e1f-0f4f-4536-8866-26c71d8da181	GET	undefined	/invoice
+
+20240525	15:04:50	0ba35d67-e166-49b6-a0a0-edc784066343	GET	undefined	/invoice
+
+20240525	15:04:50	d9a556e9-ad0c-4820-a8b4-7fdfe58d6be4	GET	undefined	/invoice
+
+20240525	15:04:51	ba7da650-cdd4-47d7-9f3e-6a004ca1ae10	GET	undefined	/invoice
+
+20240525	15:04:51	252addc0-1e05-41cd-be52-526488eff31d	GET	undefined	/invoice
+
+20240525	15:04:51	ec8bce77-a53d-4fed-a6a0-a62a4a23078d	GET	undefined	/invoice
+
+20240525	15:04:51	4a3605a0-7428-4fdd-a573-669cc9e5e2b2	GET	undefined	/invoice
+
+20240525	15:06:22	39b7506e-bfeb-441d-8312-d0e54cc69192	GET	undefined	/invoice
+
+20240525	15:06:26	c8414f89-c1b5-495c-a0e2-2ee2955a8015	GET	undefined	/invoice
+
+20240525	15:09:30	d2e4296b-9b82-4a78-b7a3-9da51e43a5f3	GET	undefined	/invoice
+
+20240525	15:09:30	d1b16bd6-1734-45c5-912c-49ca271f77ab	GET	undefined	/css/sidebar.css
+
+20240525	15:09:30	ded276e7-0c0f-4d20-a853-66da3e73f0d6	GET	undefined	/css/invoice.css
+
+20240525	15:09:30	b9da5e2b-aad5-4c5d-8ccd-bda1b960df9b	GET	undefined	/img/img1.jpg
+
+20240525	15:09:30	e20e7cbf-7091-46f6-a80f-7a13f94355ec	GET	undefined	/js/main.js
+
+20240525	15:09:30	93ff2a6c-3921-4596-af3f-1ef5f9a6b6d2	GET	undefined	/js/invoice.js
+
+20240525	15:11:13	55e5e41f-f0f7-49a9-8488-65c30c4bc564	GET	undefined	/invoice
+
+20240525	15:12:06	558cb39c-7abc-4f4c-83f1-4f0ef7789d34	GET	undefined	/invoice
+
+20240525	15:12:07	c2a35f0e-d20a-4bf4-9391-c21812df4949	GET	undefined	/invoice
+
+20240525	15:12:07	2f88839e-1505-4e22-ad69-d258a4f71957	GET	undefined	/invoice
+
+20240525	15:12:07	2411958e-4698-4bb2-9075-cd3e3f01839f	GET	undefined	/invoice
+
+20240525	15:12:08	d3d8fd7a-49f2-411f-bea4-2abbedfb6f92	GET	undefined	/invoice
+
+20240525	15:14:39	86ccef1a-15f8-4094-84b1-50cba701cd0d	GET	undefined	/invoice
+
+20240525	23:50:31	1603d1bb-a81a-401c-9a41-dbf58575f3bf	GET	undefined	/
+
+20240525	23:50:31	40e05a04-81bd-46fe-af30-1187645dcc23	GET	undefined	/js/auth.js
+
+20240525	23:50:31	5c1a2b7a-f674-4e7f-bc64-6e1725106e56	GET	undefined	/css/style.css
+
+20240525	23:50:32	f4216cb4-0cff-4d20-b367-39fd0255a597	GET	undefined	/
+
+20240525	23:50:32	f7cdfb15-6754-4d5d-a318-9b04702a2150	GET	undefined	/js/auth.js
+
+20240525	23:50:32	aaadff78-743a-4e74-8210-39415a37066c	GET	undefined	/css/style.css
+
+20240525	23:50:43	6926a1bb-62b6-4536-9c58-fff9ea7e64c9	POST	http://localhost:8080	/auth
+
+20240525	23:50:43	b8bd2c00-119f-4320-bb48-1ce03b00fcb1	GET	undefined	/dashboard
+
+20240525	23:50:43	624b2805-5fb7-468d-8f80-3dac9ce8e756	GET	undefined	/css/sidebar.css
+
+20240525	23:50:43	23120ddb-c36b-403f-8668-fbaf74399d0a	GET	undefined	/img/img1.jpg
+
+20240525	23:50:43	de3541ea-1e2e-401a-9d22-3415bdeae417	GET	undefined	/css/dashboard.css
+
+20240525	23:50:43	960f3cf1-6a89-4594-a196-1fe3cebc0e4d	GET	undefined	/js/main.js
+
+20240525	23:50:43	6ecb9592-bc34-4b70-b6ca-f5a5eb8e5adf	GET	undefined	/js/dashboard.js
+
+20240525	23:50:47	22319149-6ab2-41c1-bc1b-711bfffe28d6	GET	undefined	/invoice
+
+20240525	23:55:04	43c9499c-1b7c-448a-8226-efb21a92db82	GET	undefined	/invoice
+
+20240525	23:57:29	456faba7-d04e-403d-b5c0-bbdc642947a2	GET	undefined	/invoice
+
+20240525	23:58:20	f43f9ddb-e5e8-4801-9743-611ec8787df6	GET	undefined	/invoice
+
+20240525	23:58:26	deaea788-2f83-43eb-a655-f063a6dec81e	GET	undefined	/invoice
+
+20240526	00:00:16	0b715f70-2637-492d-8e8f-36a90b61b8e1	GET	undefined	/invoice
+
+20240526	00:00:27	8a21e317-0e58-4979-b2c0-b58310c7fa70	GET	undefined	/invoice
+
+20240526	00:03:34	cffab6b6-1297-444d-8d44-c14c4c34cfde	GET	undefined	/invoice
+
+20240526	00:04:04	90840313-f815-4216-85fc-3e3fcfe558a4	GET	undefined	/invoice
+
+20240526	00:05:33	6e700274-e8cf-4b72-a39c-570ffcd00440	GET	undefined	/
+
+20240526	00:05:33	93559914-f69a-4c4f-ab77-b1f9f9e99384	GET	undefined	/dashboard
+
+20240526	00:05:33	b6cf0b65-2066-4cd3-9b18-fc5bd8b9a08b	GET	undefined	/css/sidebar.css
+
+20240526	00:05:33	19ca49e5-230c-4245-9b8b-ad60858a08a7	GET	undefined	/css/dashboard.css
+
+20240526	00:05:33	d8360963-3077-4d7c-b3a1-c7079a6f2782	GET	undefined	/img/img1.jpg
+
+20240526	00:05:33	adea53ba-9f7c-4b16-a416-91b7120e5adf	GET	undefined	/js/main.js
+
+20240526	00:05:33	a6da7f33-2693-473a-b307-d79b7f089c5a	GET	undefined	/js/dashboard.js
+
+20240526	00:06:43	f2fec3e7-1499-4d94-952e-51097ac9f6e5	GET	undefined	/invoice
+
+20240526	00:07:00	9539b28b-ae95-4698-80d1-c97f761edb14	GET	undefined	/invoice
+
+20240526	00:07:14	12cdc8a1-9ff8-48e7-92ca-ed79f35b8e0a	GET	undefined	/invoice
+
+20240526	00:07:57	d24cadf1-a78e-4ad0-8ae6-0913ab8fcc7b	GET	undefined	/invoice
+
+20240526	00:07:57	33f20726-d36e-4e33-9b7c-77f79cc70789	GET	undefined	/css/sidebar.css
+
+20240526	00:07:57	57aa3bd6-8ee3-40e1-8c01-e88dbc831d90	GET	undefined	/img/img1.jpg
+
+20240526	00:07:57	c3aa6610-e2a4-48c2-8d0f-a0306bbf222c	GET	undefined	/css/invoice.css
+
+20240526	00:07:57	105499aa-c2f6-448e-9675-385e10fb3881	GET	undefined	/js/main.js
+
+20240526	00:07:57	33d8b32b-5e10-4aca-9976-9cf5a27fe314	GET	undefined	/js/invoice.js
+
+20240526	00:09:09	faa2f52b-8029-420a-93df-394e51210d97	GET	undefined	/invoice
+
+20240526	00:09:26	6456e6cc-21aa-4c40-924f-ac222b80514e	GET	undefined	/invoice
+
+20240526	00:10:02	c07e0c7b-49c3-4556-b925-6cea0138d9ba	GET	undefined	/invoice
+
+20240526	00:12:15	291c884b-396e-4fca-b569-79735dadfab8	GET	undefined	/invoice
+
+20240526	00:12:15	e2deeefa-707e-4d13-b4ea-604b026093aa	GET	undefined	/
+
+20240526	00:12:16	adf6cd2a-2428-4857-a7f6-ea36f68a9e8a	GET	undefined	/js/auth.js
+
+20240526	00:12:16	e3dc1fd1-7281-4c0e-b17e-930ea97d4a7b	GET	undefined	/css/style.css
+
+20240526	00:12:31	63255499-ef24-4057-9150-d3cb25da5554	POST	http://localhost:8080	/auth
+
+20240526	00:12:31	f4521c6f-e436-4d50-9215-d862fec0f185	GET	undefined	/dashboard
+
+20240526	00:12:32	e544fcc4-6a18-4ff6-b4bf-c7e2222eb77f	GET	undefined	/css/sidebar.css
+
+20240526	00:12:32	80dee47f-8a10-433f-bbad-9c09765837ba	GET	undefined	/css/dashboard.css
+
+20240526	00:12:32	b305af67-bd7f-475b-b533-dd56ef1ca845	GET	undefined	/img/img1.jpg
+
+20240526	00:12:32	7c2c1d25-6724-4208-b8c5-155c779f6cd4	GET	undefined	/js/main.js
+
+20240526	00:12:32	c2cef3aa-e389-4e6a-bb32-c0d1fc719df0	GET	undefined	/js/dashboard.js
+
+20240526	00:12:33	3eaec163-3602-4fab-94dc-f3404fe74a7b	GET	undefined	/invoice
+
+20240526	00:13:37	c637343a-b625-4ed1-914a-0d0d7f406590	GET	undefined	/invoice
+
+20240526	00:14:40	d9df71d6-c856-41db-a067-f14154e00ced	GET	undefined	/invoice
+
+20240526	00:15:33	b554f9ff-13b1-4865-922a-68093be398e4	GET	undefined	/invoice
+
+20240526	00:16:05	195b8910-4c83-483c-875d-1c3f1dd95c1c	GET	undefined	/invoice
+
+20240526	00:16:23	1c965554-a3a2-430e-929e-c18ef2b030ea	GET	undefined	/invoice
+
+20240526	00:16:44	83d31b3b-50ca-41a6-88eb-29b56b520b07	GET	undefined	/invoice
+
+20240526	00:17:11	169fd734-6bd4-40e3-8561-34d0b162a3bb	GET	undefined	/invoice
+
+20240526	00:17:42	3a20b3a3-6d5c-4f8f-910a-7864bbf9953c	GET	undefined	/invoice
+
+20240526	00:18:04	f17e87f6-c787-4a33-95c5-9e5140b12659	GET	undefined	/invoice
+
+20240526	00:18:05	3c149d7f-aa47-41b0-b477-96a11f1fb6f5	GET	undefined	/css/sidebar.css
+
+20240526	00:18:05	f52db2f9-7aa0-46c9-88df-91ea0119f813	GET	undefined	/css/invoice.css
+
+20240526	00:18:05	89ab507c-6ade-49ee-b986-222c36ff9268	GET	undefined	/img/img1.jpg
+
+20240526	00:18:05	2b303513-95bc-43c6-b449-1d6a9cc76a37	GET	undefined	/js/main.js
+
+20240526	00:18:05	c3dad36e-74e9-4b8d-b0b0-74849943c63e	GET	undefined	/js/invoice.js
+
+20240526	00:42:16	809472ad-e0c0-49ad-8374-6b11f3291290	GET	undefined	/invoice
+
+20240526	00:42:16	cf040c9f-aaaa-4166-970a-d4faced77f84	GET	undefined	/
+
+20240526	00:42:16	dd83704a-0396-4e5c-885e-e30b53be00c9	GET	undefined	/js/auth.js
+
+20240526	00:42:16	468ee227-7f50-49e1-8a43-373ac8323876	GET	undefined	/css/style.css
+
+20240526	00:42:27	513b3b8a-d695-47eb-a004-d6285f17adc2	POST	http://localhost:8080	/auth
+
+20240526	00:42:27	91d24663-9b08-482e-baea-575cb655026b	GET	undefined	/dashboard
+
+20240526	00:42:27	9caa018f-8e21-46a0-b3c7-16129b0908cf	GET	undefined	/css/sidebar.css
+
+20240526	00:42:27	89712f9d-1fbd-4fcc-a036-adfb79a3fedc	GET	undefined	/img/img1.jpg
+
+20240526	00:42:27	529d1a7a-9fc9-4b19-9ed5-7129ff747f16	GET	undefined	/css/dashboard.css
+
+20240526	00:42:27	a5620326-9865-4378-9933-0c010e784c2a	GET	undefined	/js/main.js
+
+20240526	00:42:27	88105769-34a4-4018-8579-b3b55aef7dd2	GET	undefined	/js/dashboard.js
+
+20240526	00:42:28	05ea340a-c5ce-414c-bea4-1213c99d924e	GET	undefined	/invoice
+
+20240526	00:42:28	d922be55-4b4e-4044-80bc-e14fd1f3aa59	GET	undefined	/css/sidebar.css
+
+20240526	00:42:28	f19411fc-283d-41bc-94af-5e84fda1feed	GET	undefined	/css/invoice.css
+
+20240526	00:42:28	e1c946aa-c740-48e7-8268-c80d996f553d	GET	undefined	/img/img1.jpg
+
+20240526	00:42:28	83651128-73f6-445e-b205-cb4994d56603	GET	undefined	/js/main.js
+
+20240526	00:42:28	9728014b-fb08-424c-9242-128d225ee03c	GET	undefined	/js/invoice.js
+
+20240526	00:42:50	06ad09d7-92b0-40e2-a6c0-7cfb14249dcc	POST	http://localhost:8080	/cookies/sidebarStatus
+
+20240526	00:42:51	bc9d5d13-f28b-46d5-a6c2-0eda27192cd2	POST	http://localhost:8080	/cookies/sidebarStatus
+
+20240526	00:42:54	5e4ee1ce-0a63-4a4d-9294-21086810380c	POST	http://localhost:8080	/cookies/sidebarStatus
+
+20240526	00:42:56	b9833678-79a0-4ea7-ac15-d0dbf122a1c6	POST	http://localhost:8080	/cookies/sidebarStatus
+
+20240526	00:50:30	09de44d1-f0b2-4aa7-8556-df81e415e3f9	GET	undefined	/invoice
+
+20240526	00:50:30	6e85b711-9b89-49bb-9e43-65ce7bf2d7b0	GET	undefined	/css/sidebar.css
+
+20240526	00:50:30	a6f4cada-01e0-46c3-af8f-e3247e67321d	GET	undefined	/img/img1.jpg
+
+20240526	00:50:30	9a6775c0-7a3c-4ef4-aabc-fc16cd62fdac	GET	undefined	/css/invoice.css
+
+20240526	00:50:30	86b8f5c6-4c84-4e17-9941-4ee6c667cd56	GET	undefined	/js/main.js
+
+20240526	00:50:30	94840012-75b4-4780-8296-5446752b9d91	GET	undefined	/js/invoice.js
+
+20240526	00:53:52	0883d89f-7627-4852-8705-36c213d90bd4	GET	undefined	/invoice
+
+20240526	00:53:52	53cebf73-9729-42fc-bc50-93f65fffa2ee	GET	undefined	/css/sidebar.css
+
+20240526	00:53:52	bdc36c52-aeeb-48d3-9553-23fd38857883	GET	undefined	/css/invoice.css
+
+20240526	00:53:52	1879ba05-8146-4635-8b7e-f9858557e38f	GET	undefined	/img/img1.jpg
+
+20240526	00:53:52	7e174b73-cead-4305-abd6-b28a3ab96609	GET	undefined	/js/main.js
+
+20240526	00:53:52	c4b0042b-41b3-4778-99a7-5ee55de73bc4	GET	undefined	/js/invoice.js
+
+20240526	00:59:43	e5c7b8fe-1fd4-4a76-9858-442bf2ba1468	GET	undefined	/invoice
+
+20240526	00:59:43	b047c0e7-57ab-4e3f-a676-ba8cf359f263	GET	undefined	/css/invoice.css
+
+20240526	00:59:43	ef5d3995-0f1c-4e87-83fe-655868937787	GET	undefined	/css/sidebar.css
+
+20240526	00:59:43	70c8f488-3b5d-4257-80cc-6d4b46f35d8e	GET	undefined	/img/img1.jpg
+
+20240526	00:59:43	dfcb8dd5-2318-46e1-9aa7-2b1b74b3d6ba	GET	undefined	/js/main.js
+
+20240526	00:59:43	8d081a58-8d14-46ba-a478-bc6db111b79f	GET	undefined	/js/invoice.js
+
+20240526	00:59:55	6afeae60-818c-4480-a73e-bf20bafa1fd6	GET	undefined	/invoice
+
+20240526	00:59:55	f4fc148a-124d-481f-a269-2b8692c81a0b	GET	undefined	/css/sidebar.css
+
+20240526	00:59:55	c6dced0a-bcb4-4d50-948c-352c7f988214	GET	undefined	/css/invoice.css
+
+20240526	00:59:55	dd48f157-b755-4908-acdd-f003d746d0cb	GET	undefined	/img/img1.jpg
+
+20240526	00:59:55	1b58f70c-49d7-41a2-9721-4d6cdd7859a5	GET	undefined	/js/main.js
+
+20240526	00:59:55	5aaa5612-1ebb-4fe7-afb6-fab6f46d97cc	GET	undefined	/js/invoice.js
+
+20240526	01:01:51	c7342f9e-4cb2-4011-ac2b-d3f9f5eecda7	GET	undefined	/members
+
+20240526	01:01:51	882fdfa1-dcc1-4a14-96e9-570523e3310e	GET	undefined	/css/sidebar.css
+
+20240526	01:01:51	910d0a63-3e02-4213-83cc-52239b4aa4e3	GET	undefined	/img/img1.jpg
+
+20240526	01:01:51	078af7f5-30ff-42c8-bb78-abc948500e31	GET	undefined	/js/main.js
+
+20240526	01:01:52	7b90baf0-9de0-4f6c-a54e-79f178419a8e	GET	undefined	/email
+
+20240526	01:01:52	2c962d1a-2124-483b-bce4-25d9923111f0	GET	undefined	/css/sidebar.css
+
+20240526	01:01:52	bbb909b1-a6e6-4ec8-98e1-3aa7f3979975	GET	undefined	/img/img1.jpg
+
+20240526	01:01:52	b135953e-f4cb-41c0-ad71-66a30defaf34	GET	undefined	/js/main.js
+
+20240526	01:01:53	0c497864-e280-4d6c-8eda-5829615048e2	GET	undefined	/dashboard
+
+20240526	01:01:53	12b166d8-5e0b-49c7-8820-1d532fa4d4db	GET	undefined	/css/sidebar.css
+
+20240526	01:01:53	6173ed9d-477d-4a0a-ad22-c3785b532b98	GET	undefined	/img/img1.jpg
+
+20240526	01:01:53	b47c4ff2-acc3-4c6d-8b62-5291262869e2	GET	undefined	/js/main.js
+
+20240526	01:01:53	7c1b1b79-766e-4be8-975a-ca09e1c0a57e	GET	undefined	/css/dashboard.css
+
+20240526	01:01:53	b25e9e00-7c68-40a7-957b-88b9e63d2040	GET	undefined	/js/dashboard.js
+
+20240526	01:15:01	5d3638f4-f30e-4eb1-9f2d-d200077d6e0b	GET	undefined	/invoice
+
+20240526	01:15:01	beb0301b-df2b-4822-b41e-18bb97c60815	GET	undefined	/
+
+20240526	01:15:01	a97282a7-fd25-4309-a182-9eb4fd4cd29a	GET	undefined	/js/auth.js
+
+20240526	01:15:01	a0a7b2e5-9560-4859-b309-8969c1517f85	GET	undefined	/css/style.css
+
+20240526	01:15:07	7831b09d-6f94-4406-8760-351bb718c2a9	POST	http://localhost:8080	/auth
+
+20240526	01:15:07	7e4d16da-5a0a-4bc4-909c-eea92e93eb19	GET	undefined	/dashboard
+
+20240526	01:15:07	a1a8b9ee-2063-44aa-aad5-85e3dd0fe236	GET	undefined	/css/sidebar.css
+
+20240526	01:15:07	1724bc85-07d9-4e17-8da2-7ac3560fb677	GET	undefined	/css/dashboard.css
+
+20240526	01:15:07	4761f6cb-29cc-42b3-9a1e-be41f6610c51	GET	undefined	/js/main.js
+
+20240526	01:15:07	4cd131b2-2f71-4c00-8eb7-572432c50f28	GET	undefined	/img/img1.jpg
+
+20240526	01:15:07	40feea75-c996-4fc1-8109-353f273d2318	GET	undefined	/js/dashboard.js
+
+20240526	01:15:09	078d353b-8054-4eab-8b02-cf0782b078fe	GET	undefined	/invoice
+
+20240526	01:15:09	1d09a4d4-8838-4834-8ebe-e353ce811275	GET	undefined	/css/sidebar.css
+
+20240526	01:15:09	69c8b11a-c6be-4c94-a6e4-d20fd09ef72b	GET	undefined	/js/main.js
+
+20240526	01:15:09	ec0d4105-dc29-47e0-88d5-4318d64262f5	GET	undefined	/css/invoice.css
+
+20240526	01:15:09	4dc1296f-ebc8-4d08-bf46-138b32b30898	GET	undefined	/img/img1.jpg
+
+20240526	01:15:09	7f248c83-d573-4bcd-be0d-530312b0e2f4	GET	undefined	/js/invoice.js
+
+20240526	01:17:50	1beaa515-f279-4f21-8ee2-1fdaed116bc5	GET	undefined	/invoice
+
+20240526	01:17:50	37ae3a95-37a5-4bb9-8d00-971eca47c8a2	GET	undefined	/css/invoice.css
+
+20240526	01:17:50	0890a6a3-0ba5-435d-bfc4-f0011e6041a4	GET	undefined	/css/sidebar.css
+
+20240526	01:17:50	906ee5a5-6f13-4ed0-9b8b-beb09a3afc87	GET	undefined	/js/main.js
+
+20240526	01:17:50	3e835bf0-8076-4c09-ae80-57731edfd570	GET	undefined	/img/img1.jpg
+
+20240526	01:17:50	3810786a-79e0-476b-a013-32a413317097	GET	undefined	/js/invoice.js
+
+20240526	01:18:07	cbbc326f-9ee6-4f30-b67d-c39ad0f00b41	DELETE	http://localhost:8080	/invoice
+
+20240526	01:19:46	51be533c-45ec-48c8-9733-11b573fcad26	GET	undefined	/members
+
+20240526	01:19:46	c9e277e6-0a48-40b5-8a3e-08c5aade18f1	GET	undefined	/css/sidebar.css
+
+20240526	01:19:46	d2a4e98e-7e9e-4b3a-b693-aad328cc80ea	GET	undefined	/img/img1.jpg
+
+20240526	01:19:46	c81096be-5c98-491c-b4ad-832e4576c07a	GET	undefined	/js/main.js
+
+20240526	01:19:47	46e7bade-740c-447d-9a25-ee2f2e07d327	GET	undefined	/invoice
+
+20240526	01:19:47	dc3a4fb4-cbe6-4fd6-ad65-8552c5a634ce	GET	undefined	/img/img1.jpg
+
+20240526	01:19:47	85e15b1f-3adc-43db-b855-96c1dbc3e1f8	GET	undefined	/css/invoice.css
+
+20240526	01:19:47	421fc312-636a-4cab-8713-e6932bcccc09	GET	undefined	/css/sidebar.css
+
+20240526	01:19:47	b52b8331-f6d4-4c74-b4c2-4fe6e5051b61	GET	undefined	/js/main.js
+
+20240526	01:19:47	c9df3ac2-ddf7-4101-b8af-1ca340de546c	GET	undefined	/js/invoice.js
+
+20240526	01:19:52	057d2bca-40c2-42c2-a9ea-1f60f13c6b7a	GET	undefined	/css/invoice.css
+
+20240526	01:19:52	9a7d28be-3eed-41bb-b1c9-ff5028c3dc5c	GET	undefined	/css/sidebar.css
+
+20240526	01:25:31	96c0f646-db5d-4eef-8ab4-c762f1557950	GET	undefined	/invoice
+
+20240526	01:25:31	b4c4074f-52a8-4dd9-a401-4a0bfeacb0ba	GET	undefined	/css/sidebar.css
+
+20240526	01:25:31	78dfd724-7043-4f6b-b639-061a437e48d9	GET	undefined	/css/invoice.css
+
+20240526	01:25:31	20f37949-d9f4-4713-adfc-11aa79df7159	GET	undefined	/js/main.js
+
+20240526	01:25:31	851ad852-b684-4832-9eda-f1b7b927400c	GET	undefined	/img/img1.jpg
+
+20240526	01:25:31	a7a16de2-d647-440f-81c9-ff7e2302c854	GET	undefined	/js/invoice.js
+
+20240526	01:26:26	87fc2d4b-7765-43dc-90ce-cc84b581e77a	GET	undefined	/invoice
+
+20240526	01:29:18	17820710-0d30-4a1c-8b07-73ec6915102b	GET	undefined	/invoice
+
+20240526	01:29:19	16539875-7539-4de1-bca1-12ca2761fa78	GET	undefined	/css/sidebar.css
+
+20240526	01:29:19	dcc371a9-e043-493c-89ca-4c365c227862	GET	undefined	/css/invoice.css
+
+20240526	01:29:19	e0218380-cda7-452f-90f0-d5694e6cb88e	GET	undefined	/img/img1.jpg
+
+20240526	01:29:19	be687e60-7e16-4c19-ba8b-13763c0d3c32	GET	undefined	/js/main.js
+
+20240526	01:29:19	9b3626b2-9d10-49f7-90d0-f3187f9a0b20	GET	undefined	/js/invoice.js
+
+20240526	01:30:09	f70874e1-3af0-4dcd-bd51-de00c8feaaae	POST	http://localhost:8080	/invoice
+
+20240526	01:30:50	dac65e30-341e-4b3f-a201-bcfab7a7ea4f	GET	undefined	/dashboard
+
+20240526	01:30:50	021c6720-4f49-4a72-9cb1-b74933038581	GET	undefined	/css/sidebar.css
+
+20240526	01:30:50	d4b0c857-44bc-43a1-9ea9-7badeaacc577	GET	undefined	/css/dashboard.css
+
+20240526	01:30:50	f3eab723-30b9-48ca-ad46-879943c7e44c	GET	undefined	/img/img1.jpg
+
+20240526	01:30:50	85c739b3-ec61-4475-a71a-e89d227c0217	GET	undefined	/js/main.js
+
+20240526	01:30:50	459b1d98-a523-4e39-85b0-ce79be3cf48f	GET	undefined	/js/dashboard.js
+
+20240526	01:30:51	bebe208a-e9f8-4c26-89cc-ceaf7924facc	GET	undefined	/invoice
+
+20240526	01:30:51	5901e405-396a-4780-9542-eaa2bb29ab59	GET	undefined	/css/sidebar.css
+
+20240526	01:30:51	0b644b62-7709-4aba-81e1-02980ee2be23	GET	undefined	/img/img1.jpg
+
+20240526	01:30:51	af6cd6f4-3fa9-492b-b064-a8695f5e3a88	GET	undefined	/css/invoice.css
+
+20240526	01:30:51	92d4fee2-317b-4a24-bf1c-f8fdb8dd5721	GET	undefined	/js/main.js
+
+20240526	01:30:51	91ee369c-d9d5-45f8-9bdb-b460f59a5f1a	GET	undefined	/js/invoice.js
+
+20240526	01:31:00	57fd160c-d0ad-4e51-b7e4-ed951ae16d17	GET	undefined	/dashboard
+
+20240526	01:31:00	1b16ee4c-1fbd-4351-848f-0c5781f5bc5d	GET	undefined	/css/sidebar.css
+
+20240526	01:31:00	89a01853-3490-4099-88e0-fe14147f57bf	GET	undefined	/img/img1.jpg
+
+20240526	01:31:00	761be854-3226-4465-9ae5-ccbb55bb96d4	GET	undefined	/css/dashboard.css
+
+20240526	01:31:00	45aaf2dc-c982-4582-bd68-287069febfae	GET	undefined	/js/main.js
+
+20240526	01:31:00	5fa98258-f818-48aa-a88b-c3957d19d959	GET	undefined	/js/dashboard.js
+
+20240526	01:31:01	b4e69877-3f9e-4ae7-940a-5e4f50ad1d1f	GET	undefined	/invoice
+
+20240526	01:31:01	3591736d-48b2-4a8a-914d-f8620f082cf4	GET	undefined	/css/sidebar.css
+
+20240526	01:31:01	0f78a680-d691-4a6c-b114-d6521f49c1d0	GET	undefined	/css/invoice.css
+
+20240526	01:31:01	5fc3c9ea-eb59-4e61-ac9d-8dcbbc6cebf6	GET	undefined	/js/main.js
+
+20240526	01:31:01	3790e2ae-4ba9-4bc9-9f69-058313ab7830	GET	undefined	/img/img1.jpg
+
+20240526	01:31:01	1c9a13d0-d908-4460-ad41-c31f40883b6a	GET	undefined	/js/invoice.js
+
+20240526	01:31:34	d13f1277-d2ee-4fc6-81ea-8b8f92921444	GET	undefined	/dashboard
+
+20240526	01:31:34	ed524e2b-8b86-4f13-9680-b07e2ee63514	GET	undefined	/css/sidebar.css
+
+20240526	01:31:34	7e3ed45a-cfd3-409f-a387-5de1d3500945	GET	undefined	/css/dashboard.css
+
+20240526	01:31:34	1cfa1709-bc13-4724-bedf-1493a8780098	GET	undefined	/img/img1.jpg
+
+20240526	01:31:34	8d686614-75b1-45c5-9e40-23107a9753dd	GET	undefined	/js/main.js
+
+20240526	01:31:34	96b25a5b-7513-4d2b-ac11-66b065d318be	GET	undefined	/js/dashboard.js
+
+20240526	01:31:39	0587852b-f106-4747-8419-0b5ffd99d323	GET	undefined	/invoice
+
+20240526	01:31:39	1b044948-c850-4404-89b1-3fab03392605	GET	undefined	/css/sidebar.css
+
+20240526	01:31:40	f0410074-7dba-4e42-9a23-c0b2bffcc7ce	GET	undefined	/css/invoice.css
+
+20240526	01:31:40	bbb60303-0a2d-4886-80de-078e0a0ff542	GET	undefined	/img/img1.jpg
+
+20240526	01:31:40	98a8bf8f-807b-431e-a4c6-aa788c01e8a6	GET	undefined	/js/main.js
+
+20240526	01:31:40	1afe06a6-b261-444a-8ffa-63c74c1f3c4c	GET	undefined	/js/invoice.js
+
+20240526	01:32:02	53ec28a5-be37-456a-bad2-ef4c1a4bdb1b	GET	undefined	/dashboard
+
+20240526	01:32:02	fc995855-45fe-466d-8379-ee47ded54426	GET	undefined	/css/sidebar.css
+
+20240526	01:32:02	99048815-d2d5-4d7b-980d-b263559f7a86	GET	undefined	/css/dashboard.css
+
+20240526	01:32:02	dc55d233-2966-460f-bb8b-81871bf36464	GET	undefined	/img/img1.jpg
+
+20240526	01:32:02	8b150646-8789-4fe9-a895-71263c938092	GET	undefined	/js/main.js
+
+20240526	01:32:02	0c18f6ed-00e4-4cc2-b0df-2617c3ae24ea	GET	undefined	/js/dashboard.js
+
+20240526	01:33:16	4561f980-9e70-475b-a68e-bd0d4e6d82af	GET	undefined	/invoice
+
+20240526	01:33:16	6b410c78-496d-4ab3-8713-da9e19accab5	GET	undefined	/css/sidebar.css
+
+20240526	01:33:16	3016e510-5c07-4186-ba7e-8d84579f1d8b	GET	undefined	/css/invoice.css
+
+20240526	01:33:16	7eb69dcc-0052-41ff-ab70-7c174e13359f	GET	undefined	/js/main.js
+
+20240526	01:33:16	23992d9b-3f05-4d8f-b81c-0ca6ed8c2d73	GET	undefined	/img/img1.jpg
+
+20240526	01:33:16	56a3ac9b-7eaa-41ff-8c6a-b88dc113da66	GET	undefined	/js/invoice.js
+
+20240526	01:35:33	1e5e6d81-efcd-466d-8586-126ce1c682f1	GET	undefined	/invoice
+
+20240526	01:35:33	534d5bcc-1fa0-4d27-a48b-f3315fd84854	GET	undefined	/
+
+20240526	01:35:33	3a5f1a90-4ae7-4c54-bad7-507d6d277397	GET	undefined	/css/style.css
+
+20240526	01:35:33	b0333d81-c303-4e47-99ff-f5cdffed9b4c	GET	undefined	/js/auth.js
+
+20240526	01:35:40	b0673b17-5053-41ad-9a3a-ecb4ab76eed6	POST	http://localhost:8080	/auth
+
+20240526	01:35:40	a7b85b95-0fff-42b8-b1d6-34f00a7e0674	GET	undefined	/dashboard
+
+20240526	01:35:40	d7793a7c-467a-4fde-a3be-8a277b19af4b	GET	undefined	/css/sidebar.css
+
+20240526	01:35:40	16e1b2b0-fb44-49f7-9e01-fbbfb5cfa3e5	GET	undefined	/css/dashboard.css
+
+20240526	01:35:40	527dfbfc-247c-4b2b-adc0-9a878298c71b	GET	undefined	/img/img1.jpg
+
+20240526	01:35:40	7530fbfe-eb67-4348-81a2-eabeb7103c1b	GET	undefined	/js/main.js
+
+20240526	01:35:40	bb0e681f-0968-42fe-b880-8122c50ac62e	GET	undefined	/js/dashboard.js
+
+20240526	01:35:42	df1107d5-9af6-463a-b159-28c9866179d9	GET	undefined	/invoice
+
+20240526	01:35:42	c7355807-6441-4ee4-9f1a-989f3ab8ce33	GET	undefined	/css/sidebar.css
+
+20240526	01:35:42	c3e20020-c20c-4e07-b0a9-bff2afd4ccd3	GET	undefined	/img/img1.jpg
+
+20240526	01:35:42	8b4f235a-cfc3-497f-b9af-0b37c1f705a4	GET	undefined	/css/invoice.css
+
+20240526	01:35:42	b9c7e0f5-de25-465b-bb78-6a2b4cb6f5c6	GET	undefined	/js/main.js
+
+20240526	01:35:42	87093fcf-61df-4288-b8d1-b2bf6377b1ce	GET	undefined	/js/invoice.js
+
+20240526	01:37:02	bf0d2569-e78f-4440-88ec-fa62287fe842	GET	undefined	/invoice
+
+20240526	01:37:02	a293c93a-e6cc-444c-bb0d-93dc47984ef6	GET	undefined	/css/sidebar.css
+
+20240526	01:37:02	fa0965da-6f12-4a0c-b22f-9d1fc6c37b76	GET	undefined	/css/invoice.css
+
+20240526	01:37:02	1224bc32-1e57-4766-ae2a-94289b9341b5	GET	undefined	/img/img1.jpg
+
+20240526	01:37:02	26868f80-d890-4ee6-8341-fad9352b1864	GET	undefined	/js/main.js
+
+20240526	01:37:02	8a410b3d-cf1f-4edc-8c1a-d49d436444af	GET	undefined	/js/invoice.js
+
+20240526	01:37:34	98defa7d-6b6e-4b69-8cc7-6dcfbe85aa7d	DELETE	http://localhost:8080	/invoice
+
+20240526	01:37:37	f1c31730-89f2-4528-b860-ea4cf0146b4b	DELETE	http://localhost:8080	/invoice
+
+20240526	01:37:37	8fe8c475-0f45-4c15-be26-b56d2e03987f	DELETE	http://localhost:8080	/invoice
+
+20240526	01:37:37	39417f43-46fa-4bc1-8050-b4a7cf15bccc	DELETE	http://localhost:8080	/invoice
+
+20240526	01:37:38	93fec070-b2b5-4073-bc23-c5765532c643	DELETE	http://localhost:8080	/invoice
+
+20240526	01:37:38	1c237bfa-9973-4b43-ab2f-f075a732db6a	DELETE	http://localhost:8080	/invoice
+
+20240526	01:37:41	096204fa-504a-428f-bdb4-c3e7ce12cf28	GET	undefined	/css/sidebar.css
+
+20240526	01:37:41	152383d8-0736-4a51-be54-6d8dafe37cfe	GET	undefined	/css/invoice.css
+
+20240526	01:37:43	369bc239-a13b-4b5b-9d9b-43bb88b16d34	DELETE	http://localhost:8080	/invoice
+
+20240526	01:38:39	e1b3ff17-d832-4fcd-b76f-265145429a69	GET	undefined	/members
+
+20240526	01:38:39	35eb39f8-66ec-4862-a4a5-bd9ef50d09a2	GET	undefined	/css/sidebar.css
+
+20240526	01:38:39	802ece55-159a-413d-a63f-4769e734f06f	GET	undefined	/img/img1.jpg
+
+20240526	01:38:39	29671b29-17fe-4f94-aa3a-ec0c8baae45d	GET	undefined	/js/main.js
+
+20240526	01:38:40	d9e971bd-b059-49bf-9359-6ad571782ce3	GET	undefined	/email
+
+20240526	01:38:41	da96d639-6331-4fb5-b8c0-12a132093bb1	GET	undefined	/css/sidebar.css
+
+20240526	01:38:41	6e9000a1-2b36-4e0c-958b-96bf09e580ed	GET	undefined	/img/img1.jpg
+
+20240526	01:38:41	e77e4c8d-030f-4532-b0c8-da9429e368b4	GET	undefined	/js/main.js
+
+20240526	01:38:41	317bec68-cf0c-42df-bef7-dd7cc5711398	GET	undefined	/profile
+
+20240526	01:38:42	be952cf7-4a03-4cae-8d3f-fa157e476950	GET	undefined	/css/sidebar.css
+
+20240526	01:38:42	e752ad2d-17d8-4bd1-ab47-ed79d1ae5a5d	GET	undefined	/img/img1.jpg
+
+20240526	01:38:42	ca25b599-5476-416a-98cc-d3d478c42546	GET	undefined	/js/main.js
+
+20240526	01:38:42	b2aeebec-0856-4fae-9ec8-8e7fc4f7cdcf	GET	undefined	/budget
+
+20240526	01:38:42	e9d0aa1b-0995-4373-8b46-5309d3cb459b	GET	undefined	/css/sidebar.css
+
+20240526	01:38:42	8f88f9a9-0e1d-4919-8aa2-94da646e0eef	GET	undefined	/img/img1.jpg
+
+20240526	01:38:42	0477fb3f-5e42-4737-8225-b886391b3342	GET	undefined	/js/main.js
+
+20240526	01:38:43	62ef88f6-898b-4db7-bcab-002dacdf96cd	GET	undefined	/profile
+
+20240526	01:38:43	3d123bda-2fcd-4667-9280-64e1f8837bd6	GET	undefined	/css/sidebar.css
+
+20240526	01:38:43	23c5cbee-7928-436c-b857-b88329ede7a3	GET	undefined	/js/main.js
+
+20240526	01:38:43	ec16f0cf-7c1d-47fe-9184-88b1cf681c52	GET	undefined	/img/img1.jpg
+
+20240526	01:38:44	b5bd1d4b-766d-4b4b-9760-f60113ee72b6	GET	undefined	/email
+
+20240526	01:38:44	202c0bc4-6e59-4d7e-84bc-3a286a2cdac7	GET	undefined	/css/sidebar.css
+
+20240526	01:38:44	4f833585-adbd-4ab5-b15c-6b3ebd8d19d0	GET	undefined	/img/img1.jpg
+
+20240526	01:38:44	95a7f49c-260f-4ff1-9a93-24807ec815cc	GET	undefined	/js/main.js
+
+20240526	01:38:45	e55893c3-4118-4f4c-819b-6616f6e1542d	GET	undefined	/members
+
+20240526	01:38:45	392ee69a-34c5-4046-9ac4-1139de14bba1	GET	undefined	/css/sidebar.css
+
+20240526	01:38:45	d9221db4-5cb1-4444-9b2d-bf9e2a2dcbd8	GET	undefined	/img/img1.jpg
+
+20240526	01:38:45	3489613f-1384-46e9-99d9-ea3bf33a8f4c	GET	undefined	/js/main.js
+
+20240526	01:38:45	c3e4b9fc-a9a7-4636-aa47-39635dcc640f	GET	undefined	/invoice
+
+20240526	01:38:45	d09d0766-1001-4cfc-95f8-7fb327e577d4	GET	undefined	/css/sidebar.css
+
+20240526	01:38:45	5b344ad5-fc60-423a-af3c-29a3f803ce01	GET	undefined	/css/invoice.css
+
+20240526	01:38:45	30f8cf5c-ad44-4eaf-a799-79ee48db10f5	GET	undefined	/img/img1.jpg
+
+20240526	01:38:45	4b9b3f4a-00db-4e64-8c16-718a41788f74	GET	undefined	/js/main.js
+
+20240526	01:38:45	70fd3a7b-2bcc-4d6c-b6a8-fd612d142cb7	GET	undefined	/js/invoice.js
+
+20240526	01:38:46	8e7df9e0-9ad1-464b-b822-b31b4911aedd	GET	undefined	/dashboard
+
+20240526	01:38:46	cf62feb7-f045-4d82-9334-5c913205650b	GET	undefined	/css/sidebar.css
+
+20240526	01:38:46	7fed068c-eb3a-46cb-8484-9c60a31c520d	GET	undefined	/css/dashboard.css
+
+20240526	01:38:46	d45aa438-2b03-4546-a462-a655e1d8998a	GET	undefined	/img/img1.jpg
+
+20240526	01:38:46	aceae300-3aa4-45cf-a314-28fc7470be07	GET	undefined	/js/main.js
+
+20240526	01:38:46	db044871-8b85-4371-a70e-a17d125613eb	GET	undefined	/js/dashboard.js
+
+20240526	01:38:47	b5d9ebca-5425-46d0-9b9f-436d9daa9269	GET	undefined	/invoice
+
+20240526	01:38:47	a41a4246-72ae-4245-b3e9-0132220e98b5	GET	undefined	/css/sidebar.css
+
+20240526	01:38:47	4fe79050-f038-4e3e-b95c-ab90c79c787e	GET	undefined	/css/invoice.css
+
+20240526	01:38:47	252e19d8-50ff-4fe3-ad66-3553b0e2a0b0	GET	undefined	/js/main.js
+
+20240526	01:38:47	5d74dc9f-5317-4b60-9ad6-3d29bdb2d496	GET	undefined	/img/img1.jpg
+
+20240526	01:38:47	fb5c78c3-96d6-4b84-9a35-ba5c914ff23c	GET	undefined	/js/invoice.js
+
+20240526	01:39:57	49b9ce10-d301-4743-9253-b3e468f0ca6e	GET	undefined	/invoice
+
+20240526	01:39:57	3dc166c3-b074-43ad-9cb1-17dcdf41e721	GET	undefined	/css/sidebar.css
+
+20240526	01:39:57	add8b905-59bd-45ab-a9ef-2f538b410850	GET	undefined	/css/invoice.css
+
+20240526	01:39:57	34166e52-76c0-4eb9-92c7-a3019737ea6b	GET	undefined	/img/img1.jpg
+
+20240526	01:39:57	4ee565e9-2d9f-4cbb-8880-0acbfb204a76	GET	undefined	/js/main.js
+
+20240526	01:39:57	0430dd11-2e9f-4743-9f90-91f5962727c4	GET	undefined	/js/invoice.js
+

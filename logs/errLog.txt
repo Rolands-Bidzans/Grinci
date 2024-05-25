@@ -609,3 +609,245 @@ messages is not defined
 
 20240523	20:22:13	8a120d25-0843-4bcf-902f-d98678ce4290	ReferenceError: authHeaderTest is not defined
 
+20240525	14:53:24	10a2f49a-0c2f-4bcf-bb5c-5f5e68d1f1bb	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	14:53:47	9c1c5e8c-8585-4dc9-84e1-6ab8048805ce	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	14:59:26	204bd263-0587-4a34-acdc-2d96ef07b5cf	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:02:17	fa6724ea-1ffe-4303-9179-f5896f527602	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:02:18	9666ac20-3013-434a-b68d-99e78c39197f	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:04:49	cdab6232-2766-4654-a79c-e25a8c874c03	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:04:50	5037fee9-ae4e-46b6-8121-23333b497561	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:04:50	50bdf607-0bbe-4550-b014-3660508287de	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:04:50	c638b8c8-f8f8-4a4d-890a-1aaa856046f3	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:04:51	d19e4c22-9319-484e-aa27-35718e2a2bf7	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:04:51	a04f55f4-d31e-486c-abe5-a6ec3a539ee2	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:04:51	ae1644b9-1df3-446f-b7bb-91d92d8ef305	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:04:51	c40308e8-4f49-4122-a39c-0ce3c14c92d3	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:06:22	65f2d720-a7e9-4d77-a602-e68fa7c9360a	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:06:26	23a448e9-9efd-49ac-bed2-1e3e21045536	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240525	15:11:13	5cf9fb3b-56d4-40b1-b6c2-11d8cbf29c41	ReferenceError: InvoiceController is not defined
+
+20240525	15:12:06	e34148b1-dc32-4a72-9bd6-e8c6c8d9af94	ReferenceError: InvoiceController is not defined
+
+20240525	15:12:07	581b571a-615d-4dfd-8c58-5fe047f06708	ReferenceError: InvoiceController is not defined
+
+20240525	15:12:07	e0528da5-fde8-4308-be9a-3fa90e6ff08d	ReferenceError: InvoiceController is not defined
+
+20240525	15:12:07	d91b4e58-da4a-46c6-a814-18f99e45138b	ReferenceError: InvoiceController is not defined
+
+20240525	15:12:08	f4ec1948-37e2-4c64-8187-15968af6ba18	ReferenceError: InvoiceController is not defined
+
+20240526	01:18:07	17dc6484-ce63-488c-8beb-8322a7d69136	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240526	01:37:34	6b09067f-7878-4364-8fc8-0da6c010ba53	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240526	01:37:37	c967eb4d-79fc-4a04-a3f4-8137728540a6	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240526	01:37:37	6c74c012-8bb4-446b-8ba5-7961468bbe26	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240526	01:37:37	9a801384-83f5-4843-921d-cff0f9086351	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240526	01:37:38	8ff55cd3-59a6-4f12-98f7-12c1d7343de0	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240526	01:37:38	22d41e7a-987e-4fbb-9a7c-71fbc2242a25	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
+20240526	01:37:43	4e5c7968-143e-401e-947a-509fb9e42e46	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:23
+    21|             </thead>
+    22|             <tbody>
+ >> 23|                 <% invoices.forEach((invoice, index) => { %>
+    24|                     <tr>
+    25|                         <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+    26|                         <td><%= index + 1 %></td>
+
+invoices is not defined
+
