@@ -13,30 +13,39 @@ const handleLogin = async (req, res) => {
     try {
         await db.open();
 
-        const query = `SELECT email, password, member_role, username
-                       FROM "Users", "GroupMembers"
-                       WHERE "Users".id = "GroupMembers".user_id and email = '${email}'`
+        const query = `SELECT email, password, member_role, username, "Groups".name, "Groups".id
+                       FROM "Users", "GroupMembers", "Groups"
+                       WHERE "Users".id = "GroupMembers".user_id and "Groups".id = "GroupMembers".group_id and email = '${email}'
+                       ORDER BY member_role DESC`
         const users = await db.customQuery(query);
+
+        let groups = [];
+        for (const user of users) {
+            groups.push({
+                id: user.id,
+                name: user.name,
+            });
+        }
 
         if (users.length === 0) return res.status(401).json({ 'message': 'The email address or password is incorrect. Please retry...' }); //Unauthorized
         // evaluate password
         const match = await bcrypt.compare(pwd, users[0].password);
 
         if (match) {
-            const role = users[0].member_role;
             // create JWTs
             const accessToken = jwt.sign(
                 {
                     "UserInfo": {
                         "email": users[0].email,
                         "username": users[0].username,
-                        "role": role
+                        "role": users[0].member_role,
+                        "groups": groups
                     }
                 },
                 process.env.ACCESS_TOKEN_SECRET,
                 { expiresIn: '1200s' }
             );
-            console.log(users[0].username);
+           
             const refreshToken = jwt.sign(
                 { "email": users[0].email,
                     "username": users[0].username,
@@ -57,7 +66,8 @@ const handleLogin = async (req, res) => {
             return res.status(200).json({
                 redirect: true,
                 redirectUrl: '/dashboard',
-                accessToken: accessToken
+                accessToken: accessToken,
+                groups: groups
             });
         } else {
             res.status(401).json({ 'message': 'Incorrect password!' });

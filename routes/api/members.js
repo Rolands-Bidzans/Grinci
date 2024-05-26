@@ -13,7 +13,8 @@ router.get('/', (req, res) => {
         username: username,
         pageName: title,
         styles: styles,
-        scripts: scripts
+        scripts: scripts,
+        groups: req.groups
     });
 });
 
