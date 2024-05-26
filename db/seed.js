@@ -31,7 +31,7 @@ async function seedDatabase() {
         const monitoringEmail = await database.insertMonitoringEmail('Rolandsnorigas@gmai.com', groupID[0].id) 
 
         // Insert initial tags
-        const tagDefault = await database.insertTags(groupID[0].id, 'No tag') 
+        const tagDefault = await database.insertTags(null, 'No tag') 
         // const tag = await database.insertTags(groupID[0].id, 'Elektrība') 
 
         // Insert initial invoice

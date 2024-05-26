@@ -23,7 +23,7 @@ const Tags = sequelize.define('Tags', {
             model: Group,
             key: 'id',
         },
-        allowNull: false
+        allowNull: true
     }
 }, {
     timestamps: false,
