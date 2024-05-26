@@ -31,16 +31,23 @@ async function seedDatabase() {
         const monitoringEmail = await database.insertMonitoringEmail('Rolandsnorigas@gmai.com', groupID[0].id) 
 
         // Insert initial tags
-        const tag = await database.insertTags(groupID[0].id, 'Elektrība') 
+        const tagDefault = await database.insertTags(groupID[0].id, 'No tag') 
+        // const tag = await database.insertTags(groupID[0].id, 'Elektrība') 
 
         // Insert initial invoice
-        //async insertInvoice(sender_email, total_amount, is_paid, group_id, tag_id, monitoring_email, email_text=null, supplier_name=null, supplier_address=null, customer_name=null, customer_address=null, purchase_date=null, due_date=null, paid_date=null) {
-        await database.insertInvoice('Karlis@dons.lv', 200, false, groupID[0].id, tag[0].id, monitoringEmail[0].id) 
+        const invoice = await database.insertInvoice(200, false, groupID[0].id, monitoringEmail[0].id, tagDefault[0].id) 
 
-        database.close();
-        console.log('Database seeded successfully');
-    } catch (error) {
+        // Insert initial items
+        await database.insertItems('Elektrība', invoice[0].id)
+
+    } 
+    catch (error) {
         console.error('Error seeding database', error);
+    }
+    finally {
+        // Close the database connection
+        await database.close();
+        console.log('Database seeded successfully');
     }
 }
 

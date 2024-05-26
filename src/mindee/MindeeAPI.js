@@ -26,7 +26,7 @@ class MindeeAPI {
             response = resp.document
 
         }).catch((error) => {
-            console.error("Error occurred:", error);
+            return false;
         });
 
         return response

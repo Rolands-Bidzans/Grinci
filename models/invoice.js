@@ -6,11 +6,23 @@ const Tag = require(path.join(__dirname, 'tag'));
 const MonitoringEmail = require(path.join(__dirname, 'monitoring_email'));
 
 const Invoice = sequelize.define('Invoice', {
-    sender_email:{
+    customer_name: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
     },
-    email_text:{
+    customer_address: {
+        type: DataTypes.STRING,
+        allowNull: true
+    },
+    purchase_date: {
+        type: DataTypes.DATE,
+        allowNull: true
+    },
+    due_date: {
+        type: DataTypes.DATE,
+        allowNull: true
+    },
+    invoice_number: {
         type: DataTypes.STRING,
         allowNull: true
     },
@@ -22,25 +34,17 @@ const Invoice = sequelize.define('Invoice', {
         type: DataTypes.STRING,
         allowNull: true
     },
-    customer_name: {
+    supplier_phone_number: {
         type: DataTypes.STRING,
         allowNull: true
     },
-    customer_address: {
+    supplier_website: {
         type: DataTypes.STRING,
         allowNull: true
     },
     total_amount: {
         type: DataTypes.DECIMAL(10, 2),
         allowNull: false
-    },
-    purchase_date: {
-        type: DataTypes.DATE,
-        allowNull: true
-    },
-    due_date: {
-        type: DataTypes.DATE,
-        allowNull: true
     },
     is_paid: {
         type: DataTypes.BOOLEAN,

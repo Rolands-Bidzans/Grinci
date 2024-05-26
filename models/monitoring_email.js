@@ -1,4 +1,4 @@
-const { DataTypes } = require('sequelize');
+const { Sequelize, DataTypes } = require('sequelize');
 const path = require('path');
 const sequelize = require(path.join(__dirname, '..', 'db'));
 const Group = require(path.join(__dirname, 'group'));
@@ -31,6 +31,11 @@ const MonitoringEmail = sequelize.define('MonitoringEmail', {
             key: 'id',
         },
         allowNull: false
+    },
+    next_checking_date: {
+        type: Sequelize.DATE,
+        allowNull: false,
+        defaultValue: Sequelize.NOW 
     },
 }, {
     timestamps: true,
