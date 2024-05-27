@@ -20,76 +20,22 @@
                 <th>Buttons</th>
             </thead>
             <tbody>
-                <tr>
-                    <td><input type="checkbox" class="invoice-checkbox" value="invoice1"></td>
-                    <td>1</td>
-                    <td>SIA Valsts</td>
-                    <td>2024-06-02</td>
-                    <td>$200</td>
-                    <td>
-                        <span class="unpaid">unpaid</span>
-                    </td>
-                    <td>
-                        <button>Paid</button>
-                        <button>Mannage</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" class="invoice-checkbox" value="invoice1"></td>
-                    <td>2</td>
-                    <td>SIA Enefit</td>
-                    <td>2024-06-02</td>
-                    <td>$200</td>
-                    <td>
-                        <span class="unpaid">unpaid</span>
-                    </td>
-                    <td>
-                        <button>Paid</button>
-                        <button>Mannage</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" class="invoice-checkbox" value="invoice1"></td>
-                    <td>3</td>
-                    <td>SIA Enefit</td>
-                    <td>2024-06-02</td>
-                    <td>$200</td>
-                    <td>
-                        <span class="unpaid">unpaid</span>
-                    </td>
-                    <td>
-                        <button>Paid</button>
-                        <button>Mannage</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" class="invoice-checkbox" value="invoice1"></td>
-                    <td>4</td>
-                    <td>SIA Enefit</td>
-                    <td>2024-06-02</td>
-                    <td>$200</td>
-                    <td>
-                        <span class="unpaid">unpaid</span>
-                    </td>
-                    <td>
-                        <button>Paid</button>
-                        <button>Mannage</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" class="invoice-checkbox" value="invoice1"></td>
-                    <td>5</td>
-                    <td>SIA Enefit</td>
-                    <td>2024-06-02</td>
-                    <td>$200</td>
-                    <td>
-                        <span class="unpaid">unpaid</span>
-                    </td>
-                    <td>
-                        <button>Paid</button>
-                        <button>Mannage</button>
-                    </td>
-                </tr>
+                <% invoices.forEach((invoice, index) => { %>
+                    <tr>
+                        <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+                        <td><%= index + 1 %></td>
+                        <td><%= invoice.supplier_name %></td>
+                        <td><%= new Date(invoice.due_date).toLocaleDateString('en-US') %></td>
+                        <td><%= invoice.total_amount %></td>
+                        <td>
+                            <span class="unpaid">unpaid</span>
+                        </td>
+                        <td>
+                            <button>Paid</button>
+                            <button>Manage</button>
+                        </td>
+                    </tr>
+                <% }); %>
             </tbody>
         </table>
     </div>

@@ -136,3 +136,11 @@ button {
     transition: box-shadow 0.3s ease-in-out;
     height: 30 px;
 }
+
+.unpaid {
+    color: red;
+}
+
+.paid {
+    color: green;
+}
