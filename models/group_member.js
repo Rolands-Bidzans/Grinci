@@ -12,6 +12,7 @@ const GroupMember = sequelize.define('GroupMember', {
             model: User,
             key: 'id',
         },
+        allowNull: false
     },
     group_id: {
         type: DataTypes.INTEGER,
@@ -19,6 +20,7 @@ const GroupMember = sequelize.define('GroupMember', {
             model: Group,
             key: 'id',
         },
+        allowNull: false
     },
     member_role: {
         type: DataTypes.INTEGER,
@@ -26,6 +28,7 @@ const GroupMember = sequelize.define('GroupMember', {
             model: MemberRole,
             key: 'id',
         },
+        allowNull: false
     },
 }, {
     timestamps: true,

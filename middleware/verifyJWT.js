@@ -16,7 +16,9 @@ const verifyJWT = (req, res, next) => {
         (err, decoded) => {
             if (err) return res.redirect('/'); // invalid token
             req.email = decoded.UserInfo.email;
+            req.username = decoded.UserInfo.username;
             req.roles = decoded.UserInfo.roles;
+            req.groups = decoded.UserInfo.groups;
             next(); 
         }
     );

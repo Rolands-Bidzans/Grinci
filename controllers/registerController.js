@@ -30,7 +30,7 @@ const handleNewUser = async (req, res) => {
         const hashedPwd = await bcrypt.hash(pwd, 10);
 
         //store the new user
-        const newUser = await db.insertUser(email, hashedPwd);
+        const newUser = await db.insertUser(username, email, hashedPwd);
 
         //store the new group
         const newGroup = await db.insertGroups('firstGroup');

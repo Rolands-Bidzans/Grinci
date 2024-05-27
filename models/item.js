@@ -4,17 +4,21 @@ const sequelize = require(path.join(__dirname, '..', 'db'));
 const Invoice = require(path.join(__dirname, 'invoice'));
 
 const Item = sequelize.define('Item', {
-    name: {
-        type: DataTypes.STRING,
-    },
     description: {
         type: DataTypes.STRING,
+        allowNull: false
     },
-    amount: {
+    quantity: {
         type: DataTypes.DECIMAL(10, 2),
+        allowNull: true
     },
-    price: {
+    total_amount: {
         type: DataTypes.DECIMAL(10, 2),
+        allowNull: true
+    },
+    unit_price: {
+        type: DataTypes.DECIMAL(10, 2),
+        allowNull: true
     },
     invoice_id: {
         type: DataTypes.INTEGER,
@@ -22,6 +26,7 @@ const Item = sequelize.define('Item', {
             model: Invoice,
             key: 'id',
         },
+        allowNull: false
     },
 }, {
     timestamps: false,

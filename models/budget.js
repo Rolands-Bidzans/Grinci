@@ -7,9 +7,11 @@ const BudgetStatus = require(path.join(__dirname, 'budget_status'));
 const Budget = sequelize.define('Budget', {
     name: {
         type: DataTypes.STRING,
+        allowNull: false
     },
     amount: {
         type: DataTypes.DECIMAL(10, 2),
+        allowNull: false
     },
     budget_active_from: {
         type: DataTypes.DATE,
@@ -25,6 +27,7 @@ const Budget = sequelize.define('Budget', {
             model: Group,
             key: 'id',
         },
+        allowNull: false
     },
     status: {
         type: DataTypes.INTEGER,
@@ -32,6 +35,7 @@ const Budget = sequelize.define('Budget', {
             model: BudgetStatus,
             key: 'id',
         },
+        allowNull: false
     },
 }, {
     timestamps: false,

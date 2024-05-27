@@ -3,11 +3,17 @@ const path = require('path');
 const sequelize = require(path.join(__dirname, '..', 'db'));
 
 const User = sequelize.define('User', {
+    username: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
     name: {
         type: DataTypes.STRING,
+        allowNull: true
     },
     surname: {
         type: DataTypes.STRING,
+        allowNull: true
     },
     email: {
         type: DataTypes.STRING,
@@ -18,15 +24,10 @@ const User = sequelize.define('User', {
         type: DataTypes.STRING,
         allowNull: false,
     },
-    client_id: {
-        type: DataTypes.STRING,
-    },
-    client_secret: {
-        type: DataTypes.STRING,
-    },
     refresh_token: {
         type: DataTypes.STRING,
-    },
+        allowNull: true,
+    }
 }, {
     timestamps: true,
     createdAt: 'created_at',

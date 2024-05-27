@@ -8,22 +8,18 @@ const styles = ['css/invoice.css'];
 const scripts = ['js/invoice.js'];
 const title = 'INVOICE';
 router.get('/', async (req, res) => {
-    try {
-        const email = req.email; // Assuming req.email contains the email address
-        console.log(`user id is ${email}`)
-        const invoices = await invoiceController.getInvoices(email);
-        res.render(path.join(__dirname, '..', '..', 'views', 'invoice.ejs'), {
-            title: title,
-            pageName: title,
-            styles: styles,
-            scripts: scripts,
-            invoices: invoices
-        });
-    } catch (error) {
-        console.error('Error retrieving invoices', error);
-        // Handle the error appropriately (e.g., render an error page)
-        res.status(500).send('Internal Server Error');
-    }
+    const email = req.email;
+    const invoices = await invoiceController.getInvoices(email);
+    const username = req.username.toUpperCase();
+    res.render(path.join(__dirname, '..', '..', 'views', 'invoice.ejs'), {
+        title: title,
+        username: username,
+        pageName: title,
+        styles: styles,
+        scripts: scripts,
+        groups: req.groups,
+        invoices: invoices
+    });
 });
 
 
@@ -34,7 +30,8 @@ router.delete('/', (req, res) => {
         title: title,
         pageName: title,
         styles: styles,
-        scripts: scripts
+        scripts: scripts,
+        groups: req.groups
     });
 });
 

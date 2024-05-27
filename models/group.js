@@ -5,6 +5,7 @@ const sequelize = require(path.join(__dirname, '..', 'db'));
 const Group = sequelize.define('Group', {
     name: {
         type: DataTypes.STRING,
+        allowNull: false
     },
 }, {
     timestamps: true,

@@ -20,12 +20,13 @@
 <% } else { %>
     <body id="body">
 <% } %>
+    <div id="overlay" class="overlay display_none"></div>
     <aside class="sidebar">
         <ul>
             <li class="logo" style="--bg: #FFFFFF;">
                 <a href="/dashboard">
                     <img width="50" height="50" src="https://img.icons8.com/ios/50/duolingo-logo.png" alt="duolingo-logo" />
-                    <div class="logo_text">KODAGRINČI</div>
+                    <div class="logo_text">KODA GRINČI</div>
                 </a>
             </li>
             <div class="Menulist">
@@ -127,12 +128,14 @@
                         <img width="50" height="50" src="https://img.icons8.com/ios/50/servers-group--v2.png" alt="servers-group--v2" />
                     </div>
                     <div class="dropdown">
-                        <button class="dropbtn">Dropdown <span class="symbol">+</span></button>
-                        <div class="dropdown-content">
-                            <div href="#">Link 1</div>
-                            <div href="#">Link 2</div>
-                            <div href="#">Link 3</div>
-                        </div>
+                        <% if (groups && groups.length) { %>
+                            <button class="dropbtn"><%= groups[0].name %> <span class="symbol">+</span></button>
+                            <div class="dropdown-content">
+                                <div href="#">Link 1</div>
+                                <div href="#">Link 2</div>
+                                <div href="#">Link 3</div>
+                            </div>
+                        <% } %>
                     </div>
                 </a>
             </li>
@@ -159,7 +162,7 @@
                 <div><%= pageName %></div>
             </div>
             <div class="side">
-                <div style="margin-right: 10px;">ROLANDS BIDZANS</div>
+                <div style="margin-right: 10px;"><%= username %></div>
                 <img src="img/img1.jpg" alt="Description of image">
             </div>
         </div>
