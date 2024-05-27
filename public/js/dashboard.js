@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     // Line Chart
     const ctxLine = document.getElementById('lineChart').getContext('2d');
     const lineChart = new Chart(ctxLine, {

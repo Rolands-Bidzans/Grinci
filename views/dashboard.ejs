@@ -1,31 +1,33 @@
 <%- include('partials/header') %>
 
 <div class="wrapper">
-	<div class="left_side">
-		<div class="chart_container">
-			<div class="title">Some title</div>
-			<canvas id="lineChart"></canvas>
+
+	<div class="chart_container">
+		<div class="title" style="text-align: center;">Invoices received</div>
+		<canvas id="lineChart" style="display: none;"></canvas>
+		<div class="lineChart_noData_wrapper">
+			<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/data-protection.png" alt="data-protection"/>
+			<span>Data Not Available</span>
 		</div>
 	</div>
 
-	<div class="right_side">
-		<div class="chart_container">
-			<div class="title">Some title</div>
-			<canvas id="pieChart"></canvas>
-		</div>
-		<div class="chart_container">
-			<div class="title"></div>
-			<div class="chart_center">
-				<canvas id="doughnutChart"></canvas>
-				<div class="doughnutChart_center">
-					<div class="title">Paid</div>
-					<div class="description">93%</div>
-				</div>
+	<div class="chart_container">
+		<div class="title">Month overview: <span>01.05.2024 - 31.05.2024</span></div>
+		<canvas id="pieChart"></canvas>
+	</div>
+	<div class="chart_container">
+		<div class="title"></div>
+		<div class="chart_center">
+			<canvas id="doughnutChart"></canvas>
+			<div class="doughnutChart_center">
+				<div class="title">Paid</div>
+				<div class="description">93%</div>
 			</div>
 		</div>
 	</div>
+
 </div>
-<div class="wrapper">
+<div class="wrapper" >
 	<div class="left_side" >
 		<div class="date-selector-container">
 			<div class="date-selector">
@@ -38,7 +40,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="right_side" style="height: 120px;">
+	<div class="right_side">
 		<div class="info_box">
 			<div class="title">Balance</div>
 			<div class="description">12390.98 EUR</div>

@@ -127,15 +127,11 @@
                     <div class="icon">
                         <img width="50" height="50" src="https://img.icons8.com/ios/50/servers-group--v2.png" alt="servers-group--v2" />
                     </div>
-                    <div class="dropdown">
-                        <% if (groups && groups.length) { %>
-                            <button class="dropbtn"><%= groups[0].name %> <span class="symbol">+</span></button>
-                            <div class="dropdown-content">
-                                <div href="#">Link 1</div>
-                                <div href="#">Link 2</div>
-                                <div href="#">Link 3</div>
-                            </div>
-                        <% } %>
+                    <div class="dropdown" id="groupDropdown">
+                        <button class="dropbtn">Here should be<span class="symbol">+</span></button>
+                        <div class="dropdown-content">
+                            <div href="#">This is not supposed to be here</div>
+                        </div>
                     </div>
                 </a>
             </li>
@@ -166,4 +162,4 @@
                 <img src="img/img1.jpg" alt="Description of image">
             </div>
         </div>
-        <div class="main_container" style="display: grid;">
+        <div class="main_container">

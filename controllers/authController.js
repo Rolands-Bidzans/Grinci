@@ -13,19 +13,23 @@ const handleLogin = async (req, res) => {
     try {
         await db.open();
 
-        const query = `SELECT email, password, member_role, username, "Groups".name, "Groups".id
-                       FROM "Users", "GroupMembers", "Groups"
-                       WHERE "Users".id = "GroupMembers".user_id and "Groups".id = "GroupMembers".group_id and email = '${email}'
-                       ORDER BY member_role DESC`
-        const users = await db.customQuery(query);
+        const getUserMainGroup = `
+                                SELECT "Groups".id
+                                FROM "Users"
+                                INNER JOIN "GroupMembers" ON "Users".id = "GroupMembers".user_id
+                                INNER JOIN "Groups" ON "Groups".id = "GroupMembers".group_id
+                                WHERE email = '${email}' AND "GroupMembers".member_role = '1'
+                            `;
+        // Save user group
+        let userGroup = await db.customQuery(getUserMainGroup);
+        userGroup = userGroup[0].id;
+        res.cookie('currentGroupID', userGroup , { httpOnly: true, sameSite: 'None', secure: true});
 
-        let groups = [];
-        for (const user of users) {
-            groups.push({
-                id: user.id,
-                name: user.name,
-            });
-        }
+        // This should be removed and done correctly
+        const query = `SELECT email, password, member_role, username
+                       FROM "Users", "GroupMembers"
+                       WHERE "Users".id = "GroupMembers".user_id and email = '${email}'`
+        const users = await db.customQuery(query);
 
         if (users.length === 0) return res.status(401).json({ 'message': 'The email address or password is incorrect. Please retry...' }); //Unauthorized
         // evaluate password
@@ -38,8 +42,7 @@ const handleLogin = async (req, res) => {
                     "UserInfo": {
                         "email": users[0].email,
                         "username": users[0].username,
-                        "role": users[0].member_role,
-                        "groups": groups
+                        "role": users[0].member_role
                     }
                 },
                 process.env.ACCESS_TOKEN_SECRET,
@@ -66,8 +69,7 @@ const handleLogin = async (req, res) => {
             return res.status(200).json({
                 redirect: true,
                 redirectUrl: '/dashboard',
-                accessToken: accessToken,
-                groups: groups
+                accessToken: accessToken
             });
         } else {
             res.status(401).json({ 'message': 'Incorrect password!' });
