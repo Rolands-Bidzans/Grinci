@@ -439,9 +439,8 @@ body .logo a .logo_text {
 
 
 .main_container {
+    display: block;
     padding: 0 30px;
-    display: flex;
-    flex-direction: row;
     height: 90%;
     overflow-y: scroll; /* Add vertical scroll bar */
     overflow-x: hidden; /* Prevent horizontal scrolling */

@@ -14,6 +14,7 @@ const corsOptions = require('./config/corsOptions');
 const credentials = require('./middleware/credentials');
 
 global.sidebarStatus = false;
+global.currentGroupID = null;
 
 const PORT = process.env.PORT || 8080;
 // Set EJS template 

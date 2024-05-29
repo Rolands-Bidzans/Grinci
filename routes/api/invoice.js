@@ -18,7 +18,6 @@ router.get('/', async (req, res) => {
         pageName: title,
         styles: styles,
         scripts: scripts,
-        groups: req.groups,
         invoices: invoices
     });
 });
@@ -26,12 +25,13 @@ router.get('/', async (req, res) => {
 router.post('/', invoiceController.getInvoices);
 
 router.delete('/', (req, res) => {
+    const username = req.username.toUpperCase();
     res.render(path.join(__dirname, '..', '..', 'views', 'invoice.ejs'), {
         title: title,
+        username: username,
         pageName: title,
         styles: styles,
-        scripts: scripts,
-        groups: req.groups
+        scripts: scripts
     });
 });
 
