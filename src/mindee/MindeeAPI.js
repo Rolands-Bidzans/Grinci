@@ -28,7 +28,7 @@ class MindeeAPI {
         }).catch((error) => {
             return false;
         });
-
+  
         return response
     }
 }

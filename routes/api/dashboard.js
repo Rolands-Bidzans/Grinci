@@ -25,4 +25,8 @@ router.get('/', async (req, res) => {
 
 router.post('/groups', dashboardController.getGroups);
 
+router.post('/allData', dashboardController.getAllData);
+
+router.post('/setPaid', dashboardController.setPaid);
+
 module.exports = router;

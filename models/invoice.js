@@ -70,6 +70,18 @@ const Invoice = sequelize.define('Invoice', {
         },
         allowNull: false,
     },
+    email_text:{
+        type: DataTypes.STRING,
+        allowNull: true
+    },
+    email_subject:{
+        type: DataTypes.STRING,
+        allowNull: true
+    },
+    file_name:{
+        type: DataTypes.STRING,
+        allowNull: true
+    },
     tag_id: {
         type: DataTypes.INTEGER,
         references: {

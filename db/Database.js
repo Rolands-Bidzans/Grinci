@@ -124,10 +124,10 @@ class Database {
         }
     }
 
-    async insertInvoice(total_amount, is_paid, group_id, monitoring_email, tag_id = 1, customer_name = null, customer_address = null, purchase_date  = null, due_date = null, invoice_number = null, supplier_name = null, supplier_Address = null, supplier_phone_number = null, supplier_website = null, paid_date = null, created_at = new Date()) {
+    async insertInvoice(total_amount, is_paid, group_id, monitoring_email, email_text=null, email_subject=null, file_name=null, tag_id = 1, customer_name = null, customer_address = null, purchase_date  = null, due_date = null, invoice_number = null, supplier_name = null, supplier_Address = null, supplier_phone_number = null, supplier_website = null, paid_date = null, created_at = new Date()) {
         const query = {
-            text: 'INSERT INTO "Invoices"(total_amount, is_paid, group_id, monitoring_email, tag_id, customer_name, customer_address, purchase_date, due_date, invoice_number, supplier_name, supplier_Address, supplier_phone_number, supplier_website, paid_date, created_at) VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING *',
-            values: [total_amount, is_paid, group_id, monitoring_email, tag_id, customer_name, customer_address, purchase_date, due_date, invoice_number, supplier_name, supplier_Address, supplier_phone_number, supplier_website, paid_date, created_at],
+            text: 'INSERT INTO "Invoices"(total_amount, is_paid, group_id, monitoring_email, email_text, email_subject, file_name, tag_id, customer_name, customer_address, purchase_date, due_date, invoice_number, supplier_name, supplier_Address, supplier_phone_number, supplier_website, paid_date, created_at) VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19) RETURNING *',
+            values: [total_amount, is_paid, group_id, monitoring_email, email_text, email_subject, file_name, tag_id, customer_name, customer_address, purchase_date, due_date, invoice_number, supplier_name, supplier_Address, supplier_phone_number, supplier_website, paid_date, created_at],
         };
         try {
             const result = await this.pool.query(query);
@@ -137,6 +137,7 @@ class Database {
             throw error;
         }
     }
+
 
     async insertItems(description, invoice_id, quantity = null, total_amount = null, unitPrice = null) {
         const query = {

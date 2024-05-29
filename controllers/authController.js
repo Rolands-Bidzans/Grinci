@@ -20,8 +20,10 @@ const handleLogin = async (req, res) => {
                                 INNER JOIN "Groups" ON "Groups".id = "GroupMembers".group_id
                                 WHERE email = '${email}' AND "GroupMembers".member_role = '1'
                             `;
+        
         // Save user group
         let userGroup = await db.customQuery(getUserMainGroup);
+        if(userGroup.length == 0) return res.status(401).json({ 'message': 'The email address or password is incorrect. Please retry...' }); //Unauthorized
         userGroup = userGroup[0].id;
         res.cookie('currentGroupID', userGroup , { httpOnly: true, sameSite: 'None', secure: true});
 

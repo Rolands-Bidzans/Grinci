@@ -112,7 +112,7 @@ class GmailAPI {
                 // Extract the subject if found
                 for (const part of await response.data.payload.parts) {
                     // Save sender text
-
+                    
                     if (part.mimeType === 'multipart/alternative') {
                         const base64String = part.parts[0].body.data;
                         const decodedString = Buffer.from(base64String, 'base64').toString('utf-8');

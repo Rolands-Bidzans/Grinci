@@ -2,6 +2,94 @@
 
 <!-- ####  YOUR HTML CODE HERE START-->
 
+<div class="form-container">
+    <form id="addEmailForm" action="/email/addEmail" method="post">
+        <div class="form_error_message displayNone">
+            This is the error
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="client_id">Client ID</label>
+            <input type="text" id="client_id" name="client_id" required>
+        </div>
+        <div class="form-group">
+            <label for="client_secret">Client secret</label>
+            <input type="text" id="client_secret" name="client_secret" required>
+        </div>
+        <div class="form-group">
+            <label for="refresh_token">Refresh token</label>
+            <input type="text" id="refresh_token" name="refresh_token" required>
+        </div>
+        <div class="form-group">
+            <label for="datetime">Start date</label>
+            <input type="datetime-local" id="datetime" name="datetime" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Add email</button>
+        </div>
+    </form>
+</div>
+
+<div class="table_section">
+	<table>
+		<thead>
+			<th style="width: 80px;">Nr</th>
+			<th>E-mail</th>
+			<th>Monitored since</th>
+			<th >Total invoices</th>
+			<th>Status</th>
+			<th>Approved</th>
+            <th></th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>SIA Enefit</td>
+				<td>2024-06-02</td>
+				<td>$200</td>
+				<td>
+					<span class="enabled">enabled</span>
+				</td>
+                <td>
+					YES
+				</td>
+				<td>
+					<button class="disabled">Disable</button>
+					<button class="remove">Remove</button>
+				</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>SIA Enefit</td>
+				<td>2024-06-02</td>
+				<td>$200</td>
+				<td>
+					<span class="disabled">disabled</span>
+				</td>
+                <td>
+					YES
+				</td>
+				<td>
+					<button class="enabled">Enable</button>
+					<button class="remove">Remove</button>
+				</td>
+			</tr>
+           
+		</tbody>
+	</table>
+    <div class="message">
+        <img width="32" height="32" src="https://img.icons8.com/windows/32/no-data-availible.png" alt="no-data-availible"/>
+        <div class="title">NO EMAILS YET</div>
+    </div>
+</div>
+<div class="pagination">
+	<div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/left.png" alt="left"/></div>
+	<span></span>
+	<div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/right.png" alt="right"/></div>
+</div>
 
 <!-- ####  YOUR HTML CODE HERE END-->
 
