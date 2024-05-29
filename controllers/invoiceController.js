@@ -5,14 +5,17 @@ const db = require(path.join(__dirname, '..', 'db', 'Database'));
 // Gets invoices for the group that the user is currently in
 const getInvoices = async (email) => {
     try {
+        //TODO pielikt klāt filtru pēc grupas: group_id = req.cookies.currentGroupID
         await db.open();
-        const selectQuery = `SELECT i.*
+        const selectQuery = `SELECT i.id AS invoice_id, i.*, json_agg(it.*) AS items
         FROM "Invoices" i
         JOIN "Groups" g ON i.group_id = g.id
         JOIN "GroupMembers" gm ON gm.group_id = g.id
         JOIN "Users" u ON u.id = gm.user_id
-        WHERE u.email = $1;`;
-
+        LEFT JOIN "Items" it ON it.invoice_id = i.id
+        WHERE u.email = $1
+        GROUP BY i.id;`;
+        
         const invoices = await db.customQuery(selectQuery, [email]);
         return invoices;
     } catch (error) {
@@ -42,20 +45,17 @@ const deleteInvoices = async (req, res) => {
     }
 }
 
-const updateInvoice = async (req, res) => {
+const updateInvoiceStatus = async (invoiceId, fieldsToUpdate) => {
     try {
         await db.open();
-        // Saving refreshToken with current user
-        const selectQuery = 'SELECT * FROM "Users"';
-        const users = await db.customQuery(selectQuery);
-        return res.status(200).json({ 'message': users});
-
+        const updatedInvoice = await db.updateInvoice(invoiceId, fieldsToUpdate);
+        return updatedInvoice;
     } catch (error) {
-        console.error('Error during database operations', error);
+        console.error('Error updating invoice status', error);
+        throw error;
     } finally {
-        // Close the database connection
         await db.close();
     }
 }
 
-module.exports = { getInvoices };
+module.exports = { getInvoices, updateInvoiceStatus };
