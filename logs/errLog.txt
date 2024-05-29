@@ -852,3 +852,297 @@ invoices is not defined
 invoices is not defined
 
 
+20240527	11:31:16	7e31189c-1b72-4918-82bf-ec8d0673a12e	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:48
+    46|             <span class="close">&times;</span>
+    47|             <h2>Invoice Details</h2>
+ >> 48|             <div id="invoiceDetails"><%= index + 1 %><%= invoice.supplier_name %><%= new Date(invoice.due_date).toLocaleDateString('en-US') %><%= invoice.total_amount %></div>
+    49|         </div>
+    50|     </div>
+    51|     <!-- ####  YOUR HTML CODE HERE END-->
+
+index is not defined
+
+20240527	14:13:57	cc81de97-074e-4a7a-ad4a-b88b59299cca	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:42
+    40|                                         <h2>Invoice Details</h2>
+    41|                                         <div class="invoice-details" >
+ >> 42|                                             <% invoices.items.forEach((item, index2) => { %>
+    43|                                                 <tr>
+    44|                                                     <td><input type="checkbox" class="invoice-checkbox" value="<%= item.id %>"></td>
+    45|                                                     <td><%= index2 + 1 %></td>
+
+Cannot read properties of undefined (reading 'forEach')
+
+20240527	14:15:25	92e1d39d-6b3a-4905-82d5-3916a2917c09	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:42
+    40|                                         <h2>Invoice Details</h2>
+    41|                                         <div class="invoice-details" >
+ >> 42|                                             <% invoices.items.forEach((item, index2) => { %>
+    43|                                                 <tr>
+    44|                                                     <td><input type="checkbox" class="invoice-checkbox" value="<%= item.id %>"></td>
+    45|                                                     <td><%= index2 + 1 %></td>
+
+Cannot read properties of undefined (reading 'forEach')
+
+20240527	14:15:26	daf413f2-907b-4989-bd09-bdb485a5c477	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:42
+    40|                                         <h2>Invoice Details</h2>
+    41|                                         <div class="invoice-details" >
+ >> 42|                                             <% invoices.items.forEach((item, index2) => { %>
+    43|                                                 <tr>
+    44|                                                     <td><input type="checkbox" class="invoice-checkbox" value="<%= item.id %>"></td>
+    45|                                                     <td><%= index2 + 1 %></td>
+
+Cannot read properties of undefined (reading 'forEach')
+
+20240527	14:16:06	f7cc8d01-d658-4379-97f8-c7954d23e7fb	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:42
+    40|                                         <h2>Invoice Details</h2>
+    41|                                         <div class="invoice-details" >
+ >> 42|                                             <% invoices.items.forEach((item, index2) => { %>
+    43|                                                 <tr>
+    44|                                                     <td><input type="checkbox" class="invoice-checkbox" value="<%= item.id %>"></td>
+    45|                                                     <td><%= index2 + 1 %></td>
+
+Cannot read properties of undefined (reading 'forEach')
+
+20240527	14:16:36	68850ff7-b357-4e60-82ed-7631fe063e2e	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:42
+    40|                                         <h2>Invoice Details</h2>
+    41|                                         <div class="invoice-details" >
+ >> 42|                                             <% invoices.items.forEach((item, index2) => { %>
+    43|                                                 <tr>
+    44|                                                     <td><input type="checkbox" class="invoice-checkbox" value="<%= item.id %>"></td>
+    45|                                                     <td><%= index2 + 1 %></td>
+
+Cannot read properties of undefined (reading 'forEach')
+
+20240527	14:17:28	abf23678-0de6-4a1a-b256-6d5be86ae1fe	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:42
+    40|                                         <h2>Invoice Details</h2>
+    41|                                         <div class="invoice-details" >
+ >> 42|                                             <% invoices.items.forEach((item, index2) => { %>
+    43|                                                 <tr>
+    44|                                                     <td><input type="checkbox" class="invoice-checkbox" value="<%= item.id %>"></td>
+    45|                                                     <td><%= index2 + 1 %></td>
+
+Cannot read properties of undefined (reading 'forEach')
+
+20240527	15:38:03	94f971dc-87a5-486e-aa8a-2e7d94c10e2f	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3|     <!-- ####  YOUR HTML CODE HERE START-->
+    4|     <div class="button-container">
+
+C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\partials\header.ejs:165
+    163|             </div>
+    164|             <div class="side">
+ >> 165|                 <div style="margin-right: 10px;"><%= username %></div>
+    166|                 <img src="img/img1.jpg" alt="Description of image">
+    167|             </div>
+    168|         </div>
+
+username is not defined
+
+20240528	02:17:31	cbbc2937-20c9-44a6-9fe3-ded1a1ab217a	SyntaxError: missing ) after argument list in C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+20240528	02:39:43	32cba620-c1ec-4353-af51-a26b987df041	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:66
+    64|                                             <p>
+    65|                                                 <%= index2 + 1 %>
+ >> 66|                                                 <%= item.description %>
+    67|                                                 <%= item.quantity %>
+    68|                                                 <%= item.total_amount %>
+    69|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:40:30	1653bf1c-18da-4fce-977a-abfa1baa5c4b	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:66
+    64|                                             <p>
+    65|                                                 <%= index2 + 1 %>
+ >> 66|                                                 <%= item.description %>
+    67|                                                 <%= item.quantity %>
+    68|                                                 <%= item.total_amount %>
+    69|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:42:02	66317b52-9317-444c-a7d5-acc43b0efa9c	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:67
+    65|                                             <p>
+    66|                                                 <%= index2 + 1 %>
+ >> 67|                                                 <%= item.description %>
+    68|                                                 <%= item.quantity %>
+    69|                                                 <%= item.total_amount %>
+    70|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:42:03	892a5dd9-38b3-4f97-8d57-f5923844709c	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:67
+    65|                                             <p>
+    66|                                                 <%= index2 + 1 %>
+ >> 67|                                                 <%= item.description %>
+    68|                                                 <%= item.quantity %>
+    69|                                                 <%= item.total_amount %>
+    70|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:42:04	7dc8500c-3c63-467f-b80a-02d9f4065ffe	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:67
+    65|                                             <p>
+    66|                                                 <%= index2 + 1 %>
+ >> 67|                                                 <%= item.description %>
+    68|                                                 <%= item.quantity %>
+    69|                                                 <%= item.total_amount %>
+    70|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:42:30	b7c992d3-014b-422e-a072-ca9fbacf6df7	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:67
+    65|                                             <p>
+    66|                                                 <%= index2 + 1 %>
+ >> 67|                                                 <%= item.description %>
+    68|                                                 <%= item.quantity %>
+    69|                                                 <%= item.total_amount %>
+    70|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:43:24	fc987b66-87a0-4b10-9cf1-c7fc334d2c8a	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:67
+    65|                                             <p>
+    66|                                                 <%= index2 + 1 %>
+ >> 67|                                                 <%= item.description %>
+    68|                                                 <%= item.quantity %>
+    69|                                                 <%= item.total_amount %>
+    70|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:43:25	9e3870f4-dc84-4a99-b316-10eb592ca329	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:67
+    65|                                             <p>
+    66|                                                 <%= index2 + 1 %>
+ >> 67|                                                 <%= item.description %>
+    68|                                                 <%= item.quantity %>
+    69|                                                 <%= item.total_amount %>
+    70|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:45:16	3a96445c-a64d-455d-9aa0-18258e6e4f05	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:67
+    65|                                             <p>
+    66|                                                 <%= index2 + 1 %>
+ >> 67|                                                 <%= item.description %>
+    68|                                                 <%= item.quantity %>
+    69|                                                 <%= item.total_amount %>
+    70|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:45:16	5f9a51b4-4293-42fb-9688-dbd5f5cb327d	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:67
+    65|                                             <p>
+    66|                                                 <%= index2 + 1 %>
+ >> 67|                                                 <%= item.description %>
+    68|                                                 <%= item.quantity %>
+    69|                                                 <%= item.total_amount %>
+    70|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:47:26	840da063-c18e-4dee-864c-e061a13b9831	Error: Could not find matching close tag for "<%=".
+
+20240528	02:47:45	5d8a432f-8ac4-4316-b2d8-6f9425dd913d	Error: Could not find matching close tag for "<%=".
+
+20240528	02:47:45	6d45c7d3-8b92-4beb-b74d-21e912030841	Error: Could not find matching close tag for "<%=".
+
+20240528	02:47:45	7e58dea3-9644-43e5-be60-f407cb18c17b	Error: Could not find matching close tag for "<%=".
+
+20240528	02:47:56	6a9220a1-000c-4958-9c60-35b8e241a5fc	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:66
+    64|                                             <p>
+    65|                                                 <%= index2 + 1 %>
+ >> 66|                                                 <%= item.description %>
+    67|                                                 <%= item.quantity %>
+    68|                                                 <%= item.total_amount %>
+    69|                                                 <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:50:36	a9148a44-5dce-4f90-be5a-29903be84668	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:86
+    84|                                                     <p>
+    85|                                                         <%= index2 + 1 %>
+ >> 86|                                                         <%= item.description %>
+    87|                                                         <%= item.quantity %>
+    88|                                                         <%= item.total_amount %>
+    89|                                                         <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:50:44	bcda1cee-ca54-4e3f-b351-100651f2189d	TypeError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:85
+    83|                                                 <p>
+    84|                                                     <%= index2 + 1 %>
+ >> 85|                                                         <%= item.description %>
+    86|                                                             <%= item.quantity %>
+    87|                                                                 <%= item.total_amount %>
+    88|                                                                     <span class="unpaid">unpaid</span>
+
+Cannot read properties of null (reading 'description')
+
+20240528	02:51:42	754bae97-4764-4691-a305-fad599907e95	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3|     <!-- ####  YOUR HTML CODE HERE START-->
+    4|     <div class="button-container">
+
+C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\partials\header.ejs:165
+    163|             </div>
+    164|             <div class="side">
+ >> 165|                 <div style="margin-right: 10px;"><%= username %></div>
+    166|                 <img src="img/img1.jpg" alt="Description of image">
+    167|             </div>
+    168|         </div>
+
+username is not defined
+
+20240528	03:10:18	0ce2184c-e23f-412d-bef8-a94e2a7ced18	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3|     <!-- ####  YOUR HTML CODE HERE START-->
+    4|     <div class="button-container">
+
+C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\partials\header.ejs:165
+    163|             </div>
+    164|             <div class="side">
+ >> 165|                 <div style="margin-right: 10px;"><%= username %></div>
+    166|                 <img src="img/img1.jpg" alt="Description of image">
+    167|             </div>
+    168|         </div>
+
+username is not defined
+
+20240528	20:32:42	9fc519c2-58a2-47d1-89e7-cd9a4cf536e4	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3|     <!-- ####  YOUR HTML CODE HERE START-->
+    4|     <div class="button-container">
+
+C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\partials\header.ejs:165
+    163|             </div>
+    164|             <div class="side">
+ >> 165|                 <div style="margin-right: 10px;"><%= username %></div>
+    166|                 <img src="img/img1.jpg" alt="Description of image">
+    167|             </div>
+    168|         </div>
+
+username is not defined
+
+20240528	23:02:56	9b19a5e0-ec52-4c1a-9185-6bada5fa41a0	ReferenceError: C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\invoice.ejs:1
+ >> 1| <%- include('partials/header') %>
+    2| 
+    3|     <!-- ####  YOUR HTML CODE HERE START-->
+    4|     <div class="button-container">
+
+C:\Users\37129\OneDrive\Dators\GrinVoice\Grinci\views\partials\header.ejs:165
+    163|             </div>
+    164|             <div class="side">
+ >> 165|                 <div style="margin-right: 10px;"><%= username %></div>
+    166|                 <img src="img/img1.jpg" alt="Description of image">
+    167|             </div>
+    168|         </div>
+
+username is not defined
+

@@ -184,7 +184,7 @@ class Database {
         }
     }
 
-    async insertInvice(supplier_name, supplier_address = null, customer_name = null, customer_address = null, total_amount = 0, purchase_date = new Date(), due_date = null, is_paid = false, paid_date = new Date(), group_id, email, created_at = new Date()) {
+    async insertInvoice(supplier_name, supplier_address = null, customer_name = null, customer_address = null, total_amount = 0, purchase_date = new Date(), due_date = null, is_paid = false, paid_date = new Date(), group_id, email, created_at = new Date()) {
         const query = {
             text: 'INSERT INTO "Invoices"(supplier_name, supplier_address, customer_name, customer_address, total_amount, purchase_date, due_date, is_paid, paid_date, group_id, email, created_at) VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING *',
             values: [supplier_name, supplier_address, customer_name, customer_address, total_amount, purchase_date, due_date, is_paid, paid_date, group_id, email, created_at],
@@ -197,6 +197,41 @@ class Database {
             throw error;
         }
     }
+
+    async updateInvoice(invoiceId, fieldsToUpdate) {
+        let queryText = 'UPDATE "Invoices" SET ';
+        const values = [];
+        let index = 1;
+    
+        // Dynamically create the query string and the values array
+        for (const [field, value] of Object.entries(fieldsToUpdate)) {
+            queryText += `"${field}" = $${index}, `;
+            values.push(value);
+            index++;
+        }
+        queryText = queryText.slice(0, -2); // Remove the last comma and space
+        queryText += ` WHERE id = $${index} RETURNING *`;
+        values.push(invoiceId);
+    
+        const query = {
+            text: queryText,
+            values: values,
+        };
+    
+        try {
+            console.log(query.text);
+            const result = await this.pool.query(query);
+            if (result.rows.length > 0) {
+                return result.rows[0];
+            } else {
+                throw new Error('No rows updated');
+            }
+        } catch (error) {
+            console.error('Error executing query', error);
+            throw error;
+        }
+    }
+    
     
 }
 

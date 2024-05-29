@@ -7,7 +7,7 @@
         <button id="pullInvoices">Pull invoices</button>
         <button id="createTag">Create tag</button>
         <button id="addTag">Add tag</button>
-    </div> 
+    </div>
     <div class="table_section">
         <table>
             <thead>
@@ -20,25 +20,114 @@
                 <th>Buttons</th>
             </thead>
             <tbody>
-                <% invoices.forEach((invoice, index) => { %>
-                    <tr>
-                        <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
-                        <td><%= index + 1 %></td>
-                        <td><%= invoice.supplier_name %></td>
-                        <td><%= new Date(invoice.due_date).toLocaleDateString('en-US') %></td>
-                        <td><%= invoice.total_amount %></td>
-                        <td>
-                            <span class="unpaid">unpaid</span>
-                        </td>
-                        <td>
-                            <button>Paid</button>
-                            <button>Manage</button>
-                        </td>
-                    </tr>
-                <% }); %>
+                <div class="invoiceDetails">
+                    <% invoices.forEach((invoice, index)=> { %>
+                        <tr>
+                            <td><input type="checkbox" class="invoice-checkbox" value="<%= invoice.id %>"></td>
+                            <td>
+                                <%= index + 1 %>
+                            </td>
+                            <td>
+                                <%= invoice.supplier_name %>
+                            </td>
+                            <td>
+                                <%= new Date(invoice.due_date).toLocaleDateString('en-US') %>
+                            </td>
+                            <td>
+                                <%= invoice.total_amount %>
+                            </td>
+                            <td><span class="<%= invoice.is_paid ? 'paid' : 'unpaid' %>">
+                                    <%= invoice.status %>
+                                </span></td>
+                            <td>
+                                <button>Pay</button>
+                                <button class="manage-invoice-btn" data-invoice-id="<%= invoice.id %>">Manage</button>
+                            </td>
+                            <div class="overlay" style="display: none;"></div>
+                            <div class="invoice-modal" id="full-invoice-<%=invoice.id %>" style="display: none;">
+                                <div>
+                                    <div class="container">
+                                        <div class="progress">
+                                            <div class="percent"></div>
+                                        </div>
+                                        <div class="steps">
+                                            <div class="step" id="0" style="font-size: 9px;">Recieved</div>
+                                            <div class="step" id="1" style="font-size: 9px;">Approval</div>
+                                            <div class="step" id="2" style="font-size: 9px;">Paid</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <br>
+                                    <br>
+                                    <h2>Invoice Details</h2>
+                                    <p>Supplier <%= invoice.supplier_name %>
+                                    </p>
+                                    <p>Recieved <%= new Date(invoice.created_at).toLocaleDateString('en-US') %>
+                                    </p>
+                                    <p>Payment term <%= new Date(invoice.due_date).toLocaleDateString('en-US') %>
+                                    </p>
+                                    <p>Recieved from <%= invoice.supplier_address %>
+                                    </p>
+                                    <p>Grand total <%= invoice.total_amount %>
+                                    </p>
+                                    <p class="invoice-status">
+                                        <%= invoice.status %>
+                                    </p>
+                                    <p class="invoice-is-paid">
+                                        <%= invoice.is_paid ? 'Paid' : 'Unpaid' %>
+                                    </p>
+                                    <br>
+                                    <div class="invoice-details">
+                                        <h2>Products</h2>
+<div class="invoice-products">
+    <div class="table-header">
+        <div class="column">Nr</div>
+        <div class="column">Item</div>
+        <div class="column">Amount</div>
+        <div class="column">Price per unit</div>
+        <div class="column">Total</div>
+        <div class="column">Status</div>
+    </div>
+    <% invoice.items.forEach((item, index2) => { %>
+    <div class="table-row">
+        <div class="column"><%= index2 + 1 %></div>
+        <div class="column"><%= item.description %></div>
+        <div class="column"><%= item.quantity %></div>
+        <div class="column"><%= item.price_per_unit %></div>
+        <div class="column"><%= item.total_amount %></div>
+        <div class="column"><span class="unpaid">unpaid</span></div>
+    </div>
+    <% }); %>
+</div>
+                                    </div>
+                                    <br>
+                                    <h2>Email text</h2>
+                                    <button>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</button>
+                                    <div class="modal-links">
+                                        <button class="button-link" id="disapproveInvoice" data-invoice-id="<%= invoice.id %>">Dissaprove</button>
+                                        <button class="button-link" id="downloadFile" data-invoice-id="<%= invoice.id %>">Download invoice file</button>
+                                        <button class="button-link" id="approveInvoice" data-invoice-id="<%= invoice.id %>">Approve and pay</button>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </tr>
+                        <% }); %>
+                </div>
             </tbody>
         </table>
+    <div class="pagination">
+        <div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/left.png" alt="left"/></div>
+        <span>0-250 of 436</span>
+        <div><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/right.png" alt="right"/></div>
+    
     </div>
-    <!-- ####  YOUR HTML CODE HERE END-->
+    </div>
 
+
+    <!-- ####  YOUR HTML CODE HERE END-->
     <%- include('partials/footer') %>
