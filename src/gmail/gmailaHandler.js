@@ -81,7 +81,8 @@ async function emailProcess() {
         await database.open();
 
         const query = `SELECT *
-                       FROM "MonitoringEmails"`
+                       FROM "MonitoringEmails"
+                       WHERE is_enabled = true`
         const MonitorEmails = await database.customQuery(query);
        
         //Loop all messages
@@ -145,8 +146,9 @@ async function emailProcess() {
 
                 //Send to DB
                 let invoiceID = [];
-                invoiceID = await database.insertInvoice(generalData.totalAmount, false, email.group_id, email.id, 1, generalData.customerName, generalData.customerAddress, generalData.date, generalData.dueDate, generalData.invoiceNumber, generalData.supplierName, generalData.supplierAddress, generalData.supplierPhoneNumber, generalData.supplierWebsite);
-
+                console.log('beigas')
+                                            console.log(messages)                                                        
+                invoiceID = await database.insertInvoice(generalData.totalAmount, false, email.group_id, email.id, messages[0].sender_text, messages[0].sender_subject, messages[0].filename, 1, generalData.customerName, generalData.customerAddress, generalData.date, generalData.dueDate, generalData.invoiceNumber, generalData.supplierName, generalData.supplierAddress, generalData.supplierPhoneNumber, generalData.supplierWebsite);
 
                 for (const item of items  ) {
                     await database.insertItems(item.description, invoiceID[0].id, item.quantity, item.totalAmount, item.unitPrice) 
